@@ -196,3 +196,57 @@ horovodrun -np 32 -H <server1_ip>:8,<server2_ip>:8,<server3_ip>:8,<server4_ip>:8
 [AMC: AutoML for Model Compression and Acceleration on Mobile Devices](https://arxiv.org/pdf/1802.03494.pdf) (ECCV’18)
 
 [HAQ: Hardware-Aware Automated Quantization](https://arxiv.org/pdf/1811.08886.pdf)  (CVPR’19, oral)
+
+## Custom Hardware Integration
+
+OFA now supports custom hardware integration with quantized accuracy and latency prediction using ONNX Runtime! This enables deployment optimization for NPUs, VPUs, and other specialized accelerators.
+
+### Quick Start with Custom Hardware
+
+```bash
+# Install additional dependencies
+pip install onnx onnxruntime onnxruntime-extensions onnxoptimizer onnxsim pyyaml
+
+# Run complete workflow for your custom NPU
+python examples/custom_hardware_example.py \
+    --dataset_path /path/to/imagenet \
+    --config configs/npu_config.yaml \
+    --output_dir results/my_npu
+
+# Quick demo mode (faster, for testing)
+python examples/custom_hardware_example.py \
+    --dataset_path /path/to/imagenet \
+    --config configs/npu_config.yaml \
+    --quick_demo
+```
+
+### Features
+
+- **Quantized Latency Prediction**: Build lookup tables for INT8/FP16 quantized models on your hardware
+- **Quantized Accuracy Prediction**: Train neural networks to predict accuracy with quantization effects
+- **Evolutionary Search**: Find optimal subnets balancing accuracy vs. latency for your hardware
+- **ONNX Runtime Integration**: Support for any ONNX Runtime execution provider (NPU, VPU, GPU, etc.)
+- **End-to-End Workflow**: Complete pipeline from training predictors to model deployment
+
+### Supported Hardware
+
+- **NPUs**: Intel VPU/NPU via OpenVINO, Qualcomm NPU, etc.
+- **GPUs**: NVIDIA CUDA, AMD ROCm  
+- **CPUs**: Intel MKL-DNN, ARM compute library
+- **Custom**: Any hardware with ONNX Runtime provider support
+
+### Documentation
+
+- [**Complete Integration Guide**](docs/custom_hardware_integration.md) - Detailed workflow and API documentation
+- [**Scripts README**](scripts/README.md) - Individual script usage and examples
+- [**Configuration Templates**](configs/) - Hardware-specific configuration examples
+
+### Example Results
+
+Using the custom hardware integration, you can achieve:
+- **Accuracy-aware quantization**: Find subnets that maintain high accuracy after INT8 quantization
+- **Hardware-specific optimization**: Optimize for your specific NPU's latency characteristics  
+- **Multi-objective search**: Balance accuracy, latency, and other metrics simultaneously
+- **Production-ready models**: Generate ONNX models ready for deployment
+
+For detailed usage examples and API documentation, see the [custom hardware integration guide](docs/custom_hardware_integration.md).

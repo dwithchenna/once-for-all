@@ -2,3 +2,13 @@ torch
 torchvision
 filelock
 gdown
+
+# Custom hardware integration dependencies
+onnx>=1.12.0
+onnxruntime>=1.13.0
+onnxruntime-extensions>=0.4.0
+onnxoptimizer>=0.3.0
+onnxsim>=0.4.0
+PyYAML>=6.0
+tqdm>=4.64.0
+numpy>=1.21.0

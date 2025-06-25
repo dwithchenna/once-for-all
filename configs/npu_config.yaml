@@ -1,0 +1,86 @@
+# Configuration for Custom NPU Hardware
+# This file contains settings for integrating custom NPU hardware with OFA
+
+hardware:
+  name: "CustomNPU"
+  provider: "CPUExecutionProvider"  # Change to your NPU provider (e.g., "OpenVINOExecutionProvider")
+  provider_options: {}  # Provider-specific options
+  
+  # Example for OpenVINO NPU:
+  # provider: "OpenVINOExecutionProvider"
+  # provider_options:
+  #   device_type: "NPU"
+  #   precision: "FP16"
+  
+  # Example for CUDA GPU:
+  # provider: "CUDAExecutionProvider"
+  # provider_options:
+  #   device_id: 0
+  #   arena_extend_strategy: "kSameAsRequested"
+
+quantization:
+  enabled: true
+  
+  # Quantization settings
+  weight_type: "QInt8"      # Weight quantization type: QInt8, QUInt8
+  activation_type: "QUInt8" # Activation quantization type: QInt8, QUInt8
+  
+  # Calibration dataset settings
+  calibration_dataset_size: 100
+  calibration_batch_size: 1
+  
+  # Quantization mode
+  # "static" - Static quantization with calibration data
+  # "dynamic" - Dynamic quantization (weights only)
+  mode: "static"
+  
+  # Advanced quantization options
+  per_channel: true         # Per-channel quantization for weights
+  reduce_range: false       # Reduce quantization range for better accuracy
+  
+  # Optimization settings
+  optimize_model: true      # Apply ONNX optimizations
+  use_external_data_format: false  # Use external data format for large models
+
+search:
+  # Search constraints
+  efficiency_constraint: 10.0  # Maximum latency in milliseconds
+  accuracy_threshold: 0.75     # Minimum acceptable accuracy (0-1)
+  
+  # Evolutionary search parameters
+  population_size: 100
+  max_iterations: 500
+  parent_ratio: 0.25
+  mutation_ratio: 0.5
+  arch_mutate_prob: 0.1
+  resolution_mutate_prob: 0.5
+  
+  # Multi-objective optimization
+  objectives: ["accuracy", "latency"]
+  weights: [0.7, 0.3]  # Weights for objectives (accuracy, latency)
+
+# Paths configuration
+paths:
+  models_dir: "./models"
+  results_dir: "./results"
+  calibration_data: "./data/calibration"
+  temp_dir: "./temp"
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: null     # Path to log file (null for console only)
+  
+# Performance settings
+performance:
+  # Latency measurement
+  warmup_runs: 10
+  measurement_runs: 100
+  
+  # Accuracy evaluation
+  eval_batch_size: 50
+  max_eval_batches: 100  # Limit for faster evaluation during search
+  
+  # Parallelization
+  num_workers: 4
+  batch_evaluation: true
