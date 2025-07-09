@@ -37,6 +37,7 @@ This directory contains scripts for integrating custom hardware (NPU) support wi
 ## Quick Start
 
 ### 1. Prepare Environment
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -47,6 +48,7 @@ cp configs/npu_config.yaml configs/my_npu_config.yaml
 ```
 
 ### 2. Run Complete Workflow
+
 ```bash
 # Full workflow (may take several hours)
 python examples/custom_hardware_example.py \
