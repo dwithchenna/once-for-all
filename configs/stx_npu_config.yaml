@@ -21,13 +21,14 @@ hardware:
 quantization:
   enabled: true
   
-  # Quantization settings
-  weight_type: "QInt8"      # Weight quantization type: QInt8, QUInt8
-  activation_type: "QUInt8" # Activation quantization type: QInt8, QUInt8
+  # Static quantization settings
+  method: "static"              # Use static quantization for better accuracy
+  weight_type: "QInt8"          # Weight quantization type: QInt8, QUInt8
+  activation_type: "QUInt8"     # Activation quantization type: QInt8, QUInt8
   
-  # Calibration dataset settings
-  calibration_dataset_size: 100
-  calibration_batch_size: 1
+  # Calibration dataset settings for static quantization
+  calibration_samples: 50       # Number of calibration samples
+  calibration_batch_size: 1     # Batch size for calibration
   
   # Quantization mode
   # "static" - Static quantization with calibration data

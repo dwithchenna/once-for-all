@@ -55,19 +55,28 @@ This will verify:
 
 ## Step 4: Collect Data
 
+### Important: Quantized Accuracy Measurement
+
+The data collection script measures accuracy on **quantized ONNX models**, not PyTorch models. This ensures the collected data reflects real hardware performance:
+
+1. **Subnet → Quantized ONNX**: Each subnet is first converted to quantized ONNX format
+2. **Accuracy on Quantized Model**: Accuracy is measured using the quantized ONNX model
+3. **Latency on Same Model**: Latency is measured on the same quantized ONNX model
+4. **Quantization Impact**: The data includes quantization degradation effects (typically 1-4% accuracy loss)
+
 ### Option A: Quick Test (100 samples)
 ```bash
-python collect_data.py --config configs/stx_npu_config.yaml --samples 100
+python collect_data.py --config configs/stx_npu_config.yaml --samples 100 --output data/collected/test_dataset.json
 ```
 
 ### Option B: Full Dataset (1000+ samples)
 ```bash
-python collect_data.py --config configs/stx_npu_config.yaml --samples 1000
+python collect_data.py --config configs/stx_npu_config.yaml --samples 1000 --output data/collected/full_dataset.json
 ```
 
 ### Option C: Large Dataset (5000+ samples for better accuracy)
 ```bash
-python collect_data.py --config configs/stx_npu_config.yaml --samples 5000
+python collect_data.py --config configs/stx_npu_config.yaml --samples 5000 --output data/collected/large_dataset.json
 ```
 
 ## Step 5: Monitor Data Collection
@@ -209,6 +218,22 @@ hardware:
 4. **Slow Performance**
    - Reduce `measurement_runs` and `warmup_runs`
    - Enable `batch_evaluation: true`
+
+5. **JSON Serialization Errors**
+   - If you see "Object of type int64/float32 is not JSON serializable"
+   - This happens when NumPy types aren't properly converted to Python types
+   - The script includes a custom JSON encoder to handle this automatically
+
+6. **Infinity or NaN Values**
+   - The data collection script now automatically detects and fixes infinity/NaN values
+   - These can occur when measuring latency on unsupported models or hardware configurations
+   - Fixed values are replaced with reasonable defaults (25ms for latency, 0.75 for accuracy)
+   - A warning message will be logged when values are replaced
+
+7. **Training with Small Datasets**
+   - When training with very small datasets (<100 samples), you might encounter NaN errors
+   - The training script is robust to handle small datasets and will filter out invalid values
+   - For best results, use at least 1000 samples for a reliable predictor
 
 ### Getting Help:
 
