@@ -2,8 +2,8 @@
 # This file contains settings for integrating custom NPU hardware with OFA
 
 hardware:
-  name: "CustomNPU"
-  provider: "CPUExecutionProvider"  # Change to your NPU provider (e.g., "OpenVINOExecutionProvider")
+  name: "NPU_STX"
+  provider: "VitisAIExecutionProvider"  # Change to your NPU provider (e.g., "OpenVINOExecutionProvider")
   provider_options: {}  # Provider-specific options
   
   # Example for OpenVINO NPU:
@@ -25,6 +25,11 @@ quantization:
   method: "static"              # Use static quantization for better accuracy
   weight_type: "QInt8"          # Weight quantization type: QInt8, QUInt8
   activation_type: "QUInt8"     # Activation quantization type: QInt8, QUInt8
+  
+  # Quark quantization settings (preferred over standard)
+  quark:
+    enabled: true               # Use Quark quantization when available
+    config: "XINT8"             # Quark configuration (XINT8, XUINT8, etc.)
   
   # Calibration dataset settings for static quantization
   calibration_samples: 50       # Number of calibration samples

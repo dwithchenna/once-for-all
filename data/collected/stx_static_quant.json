@@ -3,59 +3,278 @@
     "config": {
       "ks": [
         3,
-        7,
-        7,
-        5,
-        5,
-        7,
-        7,
-        7,
         3,
         3,
         7,
         3,
+        7,
+        7,
+        5,
+        5,
         5,
         5,
         7,
+        3,
+        5,
+        3,
         7,
+        3,
+        5,
+        3,
+        7
+      ],
+      "e": [
+        4,
+        4,
+        6,
+        6,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        6,
+        6,
+        4,
+        6,
+        6,
+        6
+      ],
+      "d": [
+        4,
+        3,
+        3,
+        3,
+        4
+      ],
+      "r": 224
+    },
+    "accuracy": 0.79875,
+    "latency": 23.019317554500397,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879398.8602426,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
         3,
         3,
         5,
-        5
+        7,
+        3,
+        3,
+        3,
+        5,
+        7,
+        3,
+        3,
+        7,
+        7,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3
       ],
       "e": [
         6,
+        4,
         6,
+        4,
         6,
         3,
+        3,
         6,
+        6,
+        4,
+        3,
         3,
         6,
         6,
         4,
         6,
-        4,
         3,
         6,
-        3,
-        4,
-        3,
-        3,
-        3,
         6,
         4
       ],
       "d": [
         4,
-        2,
         3,
+        4,
         2,
+        2
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7903125,
+    "latency": 20.817510478976047,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879398.8808,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        3,
+        7,
+        3,
+        5,
+        7,
+        5,
+        7,
+        7,
+        7,
+        3,
+        5,
+        5,
+        5,
+        3,
+        5,
+        7,
+        5,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        4,
+        6,
+        6,
+        4,
+        6,
+        6,
+        4,
+        3,
+        6,
+        6,
+        6,
+        4,
+        4,
+        6,
+        3,
+        6,
+        3
+      ],
+      "d": [
+        2,
+        4,
+        3,
+        3,
         4
+      ],
+      "r": 224
+    },
+    "accuracy": 0.8003125,
+    "latency": 22.98309861881484,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879398.9068887,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        7,
+        7,
+        7,
+        3,
+        7,
+        5,
+        3,
+        5,
+        7,
+        7,
+        7,
+        7,
+        5,
+        3,
+        5,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        3,
+        6,
+        3,
+        6,
+        4,
+        4,
+        6,
+        3,
+        6,
+        4,
+        4,
+        3,
+        6,
+        3,
+        4,
+        4,
+        6,
+        3,
+        6
+      ],
+      "d": [
+        2,
+        4,
+        4,
+        4,
+        2
       ],
       "r": 176
     },
-    "accuracy": 0.768125,
-    "latency": 23.111575022870017,
+    "accuracy": 0.7703125,
+    "latency": 22.046547043320913,
     "input_shape": [
       1,
       3,
@@ -68,8 +287,373 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185899.3766656,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879398.9352653,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        7,
+        3,
+        3,
+        7,
+        5,
+        5,
+        7,
+        5,
+        5,
+        5,
+        7,
+        7,
+        5,
+        5,
+        5,
+        7,
+        3,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        4,
+        3,
+        4,
+        6,
+        6,
+        3,
+        4,
+        3,
+        4,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        2,
+        4,
+        4,
+        2,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7621874999999999,
+    "latency": 28.016398125578487,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879398.9571235,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        3,
+        7,
+        5,
+        5,
+        5,
+        7,
+        3,
+        3,
+        5,
+        5,
+        3,
+        7,
+        5,
+        3,
+        7,
+        5,
+        7,
+        5
+      ],
+      "e": [
+        4,
+        4,
+        4,
+        6,
+        6,
+        6,
+        3,
+        6,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        4,
+        6,
+        6,
+        4,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.755625,
+    "latency": 25.414470902783172,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879398.9807856,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        3,
+        3,
+        5,
+        5,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        5,
+        5,
+        5,
+        3,
+        7,
+        3
+      ],
+      "e": [
+        6,
+        6,
+        6,
+        3,
+        6,
+        3,
+        4,
+        3,
+        6,
+        4,
+        3,
+        6,
+        4,
+        6,
+        3,
+        4,
+        3,
+        4,
+        4,
+        6
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        3,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7571874999999999,
+    "latency": 26.981242830883716,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.0015178,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        5,
+        7,
+        3,
+        3,
+        5,
+        5,
+        5,
+        7,
+        5,
+        7,
+        5,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        5
+      ],
+      "e": [
+        3,
+        3,
+        6,
+        3,
+        3,
+        4,
+        4,
+        4,
+        6,
+        3,
+        6,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        4,
+        2,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7640625,
+    "latency": 21.717824443006734,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.0253425,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3,
+        5,
+        7,
+        7,
+        7,
+        7,
+        7,
+        5,
+        3,
+        5,
+        5,
+        5,
+        3,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        6,
+        3,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        6,
+        4,
+        3,
+        6,
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "d": [
+        2,
+        4,
+        4,
+        2,
+        4
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7884374999999999,
+    "latency": 27.804495783343306,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.0519726,
     "measured_on_quantized": true
   },
   {
@@ -82,53 +666,53 @@
         5,
         5,
         7,
-        7,
+        5,
+        5,
+        5,
         7,
         3,
         5,
-        5,
         3,
         3,
-        7,
-        7,
-        5,
         5,
         7,
-        7
+        7,
+        7,
+        3
       ],
       "e": [
+        6,
+        6,
+        4,
         3,
+        6,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
         3,
         4,
         6,
-        4,
-        3,
-        3,
-        4,
-        4,
-        6,
-        3,
-        4,
-        3,
-        3,
-        4,
-        6,
-        3,
-        6,
-        6,
-        6
+        4
       ],
       "d": [
+        3,
         2,
         4,
-        2,
-        2,
-        4
+        3,
+        2
       ],
       "r": 160
     },
-    "accuracy": 0.7534375,
-    "latency": 27.276926136967198,
+    "accuracy": 0.7481249999999999,
+    "latency": 29.281985550941606,
     "input_shape": [
       1,
       3,
@@ -141,140 +725,67 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185899.3956656,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.0759737,
     "measured_on_quantized": true
   },
   {
     "config": {
       "ks": [
-        3,
-        3,
+        7,
+        5,
         3,
         5,
         3,
-        3,
-        7,
-        3,
+        5,
         5,
         3,
-        3,
-        5,
-        7,
-        3,
-        3,
-        7,
-        7,
-        3,
-        3,
-        3
-      ],
-      "e": [
-        6,
-        3,
-        3,
-        6,
-        4,
-        3,
-        3,
-        4,
-        3,
-        4,
-        4,
-        4,
-        4,
-        4,
-        6,
-        3,
-        4,
-        4,
-        3,
-        6
-      ],
-      "d": [
-        4,
-        4,
-        3,
-        4,
-        3
-      ],
-      "r": 208
-    },
-    "accuracy": 0.7815624999999999,
-    "latency": 26.25613342522281,
-    "input_shape": [
-      1,
-      3,
-      208,
-      208
-    ],
-    "quantization": {
-      "enabled": true,
-      "method": "static",
-      "weight_type": "QInt8",
-      "activation_type": "QUInt8"
-    },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185899.417173,
-    "measured_on_quantized": true
-  },
-  {
-    "config": {
-      "ks": [
-        3,
-        5,
         3,
         7,
         7,
         3,
         5,
-        7,
-        3,
-        5,
-        3,
         3,
         7,
-        5,
-        5,
-        3,
         3,
         3,
         7,
-        5
+        3,
+        7
       ],
       "e": [
         6,
         3,
         4,
         3,
+        6,
+        4,
         4,
         3,
         4,
+        4,
+        4,
+        4,
+        3,
+        3,
         3,
         4,
-        6,
-        3,
-        6,
         4,
         6,
         4,
-        4,
-        6,
-        6,
-        6,
-        6
+        3
       ],
       "d": [
         4,
-        3,
-        3,
         2,
-        4
+        2,
+        3,
+        3
       ],
       "r": 192
     },
-    "accuracy": 0.775625,
-    "latency": 24.30684496763672,
+    "accuracy": 0.7615624999999999,
+    "latency": 29.86498469127535,
     "input_shape": [
       1,
       3,
@@ -287,67 +798,432 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185899.4332004,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.097833,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        7,
+        3,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3,
+        3,
+        5,
+        3,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7
+      ],
+      "e": [
+        6,
+        4,
+        4,
+        3,
+        3,
+        6,
+        3,
+        4,
+        3,
+        4,
+        6,
+        3,
+        6,
+        3,
+        6,
+        4,
+        6,
+        4,
+        6,
+        3
+      ],
+      "d": [
+        4,
+        2,
+        4,
+        3,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7853125,
+    "latency": 29.392257216841728,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.1198857,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        5,
+        3,
+        3,
+        7,
+        3,
+        3,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        6,
+        6,
+        6,
+        3,
+        3,
+        4,
+        6,
+        3,
+        3,
+        3,
+        6,
+        4,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        4,
+        2
+      ],
+      "r": 160
+    },
+    "accuracy": 0.74125,
+    "latency": 25.174173870914125,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.143942,
     "measured_on_quantized": true
   },
   {
     "config": {
       "ks": [
         3,
-        5,
-        3,
-        3,
-        7,
         3,
         7,
         3,
         5,
-        5,
-        5,
-        5,
+        7,
         7,
         5,
+        7,
+        7,
+        7,
+        7,
         5,
         7,
         3,
         5,
-        5,
-        7
+        7,
+        3,
+        3,
+        5
       ],
       "e": [
-        4,
         6,
-        3,
-        3,
-        3,
-        3,
-        6,
-        4,
-        3,
-        4,
         3,
         6,
         6,
+        6,
+        3,
+        6,
         4,
+        6,
+        3,
         4,
         3,
-        3,
         4,
+        4,
+        4,
+        6,
+        6,
+        6,
         4,
         6
       ],
       "d": [
+        3,
         2,
+        3,
+        4,
+        4
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7946875,
+    "latency": 24.76741242921865,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.1750536,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        5,
+        3,
+        3,
+        3,
+        7,
+        7,
+        3,
+        7,
+        3,
+        5,
+        3,
+        5,
+        7,
+        5,
+        7,
+        3,
+        5
+      ],
+      "e": [
+        6,
+        4,
+        3,
+        6,
+        6,
+        6,
+        6,
+        3,
+        3,
+        6,
+        3,
+        4,
+        3,
+        6,
+        3,
+        3,
+        4,
+        4,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        4,
         2,
+        3,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7790625,
+    "latency": 20.6018330684007,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.2035606,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        5,
+        7,
+        3,
+        5,
+        3,
+        3,
+        3,
+        3,
+        7,
+        3,
+        7,
+        5,
+        5,
+        3,
+        3,
+        3,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        6,
+        4,
+        3,
+        4,
+        6,
+        3,
+        4,
+        3,
+        3,
+        6,
+        4,
+        3,
+        4,
+        6,
+        3,
+        4,
+        3,
+        3
+      ],
+      "d": [
+        3,
+        4,
         3,
         2,
         3
       ],
+      "r": 208
+    },
+    "accuracy": 0.773125,
+    "latency": 27.566471431266663,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.2318022,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        7,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        3,
+        7,
+        5,
+        5,
+        7,
+        7,
+        5,
+        7,
+        3,
+        7,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        4,
+        4,
+        6,
+        3,
+        4,
+        3,
+        6,
+        3,
+        4,
+        6,
+        3,
+        6,
+        4,
+        6,
+        6,
+        4,
+        6,
+        6
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
       "r": 176
     },
-    "accuracy": 0.7484375,
-    "latency": 26.96108881027381,
+    "accuracy": 0.7609374999999999,
+    "latency": 24.72332035618034,
     "input_shape": [
       1,
       3,
@@ -360,8 +1236,6067 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185899.4542003,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.2549837,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        3,
+        7,
+        5,
+        7,
+        7,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        7,
+        3,
+        7,
+        3,
+        7,
+        5
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        4,
+        6,
+        3,
+        6,
+        4,
+        3,
+        3,
+        4,
+        6,
+        6,
+        6,
+        3,
+        4,
+        6,
+        3,
+        4,
+        4
+      ],
+      "d": [
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7775,
+    "latency": 21.552151710664127,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.28108,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        5,
+        5,
+        5,
+        7,
+        7,
+        3,
+        3,
+        5,
+        5,
+        3,
+        7,
+        5,
+        7,
+        5,
+        7,
+        7,
+        7,
+        7
+      ],
+      "e": [
+        6,
+        4,
+        6,
+        6,
+        6,
+        6,
+        4,
+        3,
+        4,
+        4,
+        6,
+        4,
+        3,
+        6,
+        4,
+        4,
+        3,
+        6,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        3,
+        4,
+        3,
+        2
+      ],
+      "r": 160
+    },
+    "accuracy": 0.76125,
+    "latency": 24.01092617224458,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.3031867,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        3,
+        7,
+        5,
+        7,
+        7,
+        3,
+        5,
+        7,
+        7,
+        3,
+        5,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7
+      ],
+      "e": [
+        6,
+        3,
+        3,
+        4,
+        3,
+        6,
+        6,
+        6,
+        6,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        3,
+        6,
+        4,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7571874999999999,
+    "latency": 26.21746064789427,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.3269076,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        3,
+        7,
+        3,
+        5,
+        5,
+        7,
+        5,
+        3,
+        3,
+        5,
+        3,
+        7,
+        5,
+        7,
+        7,
+        5,
+        5,
+        3
+      ],
+      "e": [
+        4,
+        6,
+        4,
+        3,
+        6,
+        6,
+        6,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        4,
+        6,
+        3,
+        6,
+        6
+      ],
+      "d": [
+        2,
+        3,
+        4,
+        2,
+        3
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7493749999999999,
+    "latency": 27.412201613350405,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.349778,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        3,
+        3,
+        7,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        7,
+        3,
+        5,
+        3,
+        7,
+        7,
+        5,
+        3,
+        3
+      ],
+      "e": [
+        4,
+        6,
+        6,
+        3,
+        4,
+        4,
+        6,
+        4,
+        4,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7684375,
+    "latency": 20.96250576298666,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.373871,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        7,
+        5,
+        5,
+        7,
+        7,
+        5,
+        7,
+        3,
+        7,
+        5,
+        3,
+        3,
+        3,
+        3,
+        7,
+        3,
+        3,
+        5
+      ],
+      "e": [
+        4,
+        4,
+        3,
+        6,
+        6,
+        3,
+        4,
+        4,
+        4,
+        6,
+        4,
+        6,
+        6,
+        4,
+        6,
+        4,
+        3,
+        6,
+        4,
+        6
+      ],
+      "d": [
+        3,
+        2,
+        2,
+        4,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7721874999999999,
+    "latency": 26.693667732162183,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.398989,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        5,
+        7,
+        3,
+        7,
+        5,
+        5,
+        5,
+        5,
+        3,
+        3,
+        5,
+        3,
+        7,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        4,
+        3,
+        6,
+        6,
+        4,
+        4,
+        3,
+        6,
+        6,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "d": [
+        2,
+        4,
+        3,
+        2,
+        2
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7590625,
+    "latency": 24.13671483500373,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.4221244,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        3,
+        7,
+        7,
+        3,
+        5,
+        3,
+        7,
+        5,
+        7,
+        5,
+        7,
+        7,
+        5,
+        3,
+        3,
+        5,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        3,
+        6,
+        3,
+        4,
+        4,
+        6,
+        6,
+        4,
+        3,
+        3,
+        6,
+        4,
+        6,
+        6,
+        3,
+        4,
+        4,
+        6
+      ],
+      "d": [
+        2,
+        4,
+        2,
+        3,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7721874999999999,
+    "latency": 20.036100374143935,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.4459767,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        3,
+        3,
+        5,
+        3,
+        3,
+        5,
+        3,
+        3,
+        3,
+        3,
+        7,
+        7,
+        5,
+        5,
+        3,
+        3,
+        7,
+        3
+      ],
+      "e": [
+        4,
+        3,
+        6,
+        3,
+        6,
+        4,
+        3,
+        4,
+        3,
+        6,
+        3,
+        6,
+        6,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        4,
+        3,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7778124999999999,
+    "latency": 22.613998952448554,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.4680982,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        3,
+        7,
+        7,
+        7,
+        5,
+        3,
+        3,
+        5,
+        3,
+        3,
+        7,
+        7,
+        7,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "e": [
+        3,
+        4,
+        6,
+        3,
+        3,
+        6,
+        3,
+        6,
+        3,
+        3,
+        6,
+        4,
+        6,
+        4,
+        4,
+        3,
+        6,
+        6,
+        4,
+        6
+      ],
+      "d": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7856249999999999,
+    "latency": 24.055833729261963,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.4867306,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        5,
+        5,
+        7,
+        3,
+        5,
+        5,
+        5
+      ],
+      "e": [
+        3,
+        3,
+        6,
+        4,
+        3,
+        3,
+        3,
+        4,
+        4,
+        6,
+        4,
+        3,
+        3,
+        3,
+        3,
+        6,
+        4,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        2,
+        2,
+        3,
+        3,
+        2
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7374999999999999,
+    "latency": 20.77452282737633,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.5090144,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        3,
+        5,
+        7,
+        3,
+        7,
+        5,
+        3,
+        3,
+        5,
+        5,
+        5,
+        7,
+        7,
+        7,
+        3,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        3,
+        3,
+        6,
+        4,
+        3,
+        4,
+        4,
+        6,
+        4,
+        3,
+        4,
+        6,
+        4,
+        3,
+        3,
+        6,
+        4,
+        6,
+        6
+      ],
+      "d": [
+        4,
+        2,
+        4,
+        4,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7849999999999999,
+    "latency": 20.48557522559348,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.5290515,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        5,
+        5,
+        3,
+        7,
+        5,
+        7,
+        3,
+        5,
+        3,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        4,
+        3,
+        6,
+        3,
+        4,
+        6,
+        6,
+        3,
+        6,
+        4,
+        3,
+        6,
+        6,
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3
+      ],
+      "d": [
+        4,
+        2,
+        3,
+        3,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7625,
+    "latency": 23.89999062826703,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.550849,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        3,
+        3,
+        5,
+        5,
+        7,
+        7,
+        7,
+        7,
+        5,
+        5,
+        5,
+        7,
+        3,
+        5,
+        5,
+        5,
+        5
+      ],
+      "e": [
+        4,
+        6,
+        6,
+        3,
+        4,
+        3,
+        4,
+        4,
+        3,
+        6,
+        4,
+        3,
+        3,
+        4,
+        4,
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        2,
+        4,
+        4,
+        2,
+        4
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7865624999999999,
+    "latency": 26.798074857816147,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.5739722,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        7,
+        5,
+        5,
+        3,
+        5,
+        5,
+        7,
+        5,
+        3,
+        5,
+        3,
+        5,
+        5,
+        5,
+        7,
+        5,
+        3,
+        3,
+        7
+      ],
+      "e": [
+        6,
+        3,
+        3,
+        3,
+        4,
+        3,
+        6,
+        4,
+        3,
+        3,
+        3,
+        4,
+        6,
+        6,
+        6,
+        6,
+        3,
+        4,
+        6,
+        3
+      ],
+      "d": [
+        2,
+        2,
+        3,
+        2,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7643749999999999,
+    "latency": 29.59886052271333,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.5960708,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        5,
+        3,
+        3,
+        3,
+        3,
+        5,
+        7,
+        7,
+        5,
+        3,
+        3,
+        7,
+        5,
+        3,
+        7,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        6,
+        3,
+        3,
+        3,
+        6,
+        3,
+        6,
+        4,
+        6,
+        4,
+        3,
+        6,
+        6,
+        3,
+        4,
+        6,
+        4,
+        4,
+        3,
+        3
+      ],
+      "d": [
+        2,
+        4,
+        3,
+        4,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.781875,
+    "latency": 27.557735720816964,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.620122,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        5,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        7,
+        5,
+        3,
+        3,
+        3,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        6,
+        4,
+        6,
+        4,
+        4,
+        6,
+        4,
+        4,
+        6,
+        4,
+        4,
+        6,
+        6,
+        4,
+        6,
+        3,
+        4,
+        3
+      ],
+      "d": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7796875,
+    "latency": 22.47766912633579,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.6410456,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        3,
+        3,
+        5,
+        7,
+        3,
+        3,
+        7,
+        5,
+        7,
+        5,
+        3,
+        7,
+        3,
+        7,
+        7,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        3,
+        4,
+        6,
+        4,
+        4,
+        4,
+        4,
+        6,
+        3,
+        3,
+        3,
+        4,
+        4,
+        3,
+        4,
+        6,
+        3,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        4,
+        3,
+        4,
+        2
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7725,
+    "latency": 26.45941249811398,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.6633134,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        7,
+        7,
+        5,
+        5,
+        5,
+        3,
+        3,
+        7,
+        7,
+        5,
+        7,
+        7,
+        7,
+        7,
+        5,
+        3,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        3,
+        6,
+        4,
+        6,
+        3,
+        4,
+        3,
+        4,
+        3,
+        6,
+        6,
+        4,
+        6,
+        4,
+        3,
+        3,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        4,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.783125,
+    "latency": 23.286255259507165,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.6838505,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        7,
+        5,
+        3,
+        5,
+        3,
+        7,
+        3,
+        3,
+        3,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3
+      ],
+      "e": [
+        4,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        6,
+        4,
+        4,
+        6,
+        4,
+        3,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        3,
+        3,
+        4,
+        2
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7687499999999999,
+    "latency": 29.845476041823687,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.7031925,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        7,
+        5,
+        3,
+        5,
+        3,
+        7,
+        7,
+        3,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        3
+      ],
+      "e": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        3,
+        6,
+        6,
+        4,
+        6,
+        3,
+        3,
+        6,
+        3,
+        6,
+        3,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        3,
+        2,
+        4,
+        2,
+        2
+      ],
+      "r": 176
+    },
+    "accuracy": 0.76125,
+    "latency": 20.054496667804806,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.7217402,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        3,
+        7,
+        7,
+        5,
+        5,
+        5,
+        7,
+        3,
+        3,
+        7,
+        5,
+        5,
+        5,
+        7,
+        5,
+        7,
+        7,
+        5
+      ],
+      "e": [
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        6,
+        6,
+        3,
+        3,
+        4,
+        6,
+        6
+      ],
+      "d": [
+        4,
+        3,
+        3,
+        2,
+        3
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7537499999999999,
+    "latency": 26.862862380632677,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.738791,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        7,
+        5,
+        5,
+        7,
+        5,
+        3,
+        3,
+        7,
+        7,
+        7,
+        5,
+        7,
+        5,
+        3,
+        3,
+        5,
+        5,
+        3
+      ],
+      "e": [
+        4,
+        6,
+        3,
+        4,
+        6,
+        4,
+        6,
+        4,
+        3,
+        4,
+        6,
+        3,
+        6,
+        6,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "d": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7721874999999999,
+    "latency": 23.87059982958808,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.7600563,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        3,
+        7,
+        5,
+        3,
+        3,
+        5,
+        5,
+        5,
+        5,
+        7,
+        7,
+        7,
+        3,
+        7,
+        3,
+        3,
+        5,
+        3
+      ],
+      "e": [
+        6,
+        3,
+        3,
+        6,
+        6,
+        4,
+        3,
+        3,
+        4,
+        3,
+        3,
+        6,
+        6,
+        6,
+        6,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        3,
+        4,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7865624999999999,
+    "latency": 23.72535738208061,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.7778523,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        5,
+        3,
+        7,
+        3,
+        5,
+        7,
+        5,
+        5,
+        7,
+        7,
+        5,
+        7,
+        3,
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        6,
+        6,
+        4,
+        6,
+        3,
+        4,
+        3,
+        6,
+        4,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        6,
+        3,
+        3,
+        6,
+        3
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        3,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7603125,
+    "latency": 28.14171157204977,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.7962544,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        5,
+        5,
+        3,
+        7,
+        3,
+        5,
+        7,
+        3,
+        3,
+        3,
+        3,
+        5,
+        7,
+        5,
+        3,
+        7,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        4,
+        4,
+        6,
+        6,
+        4,
+        3,
+        3,
+        6,
+        4,
+        4,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        2,
+        3,
+        3,
+        4
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7875,
+    "latency": 24.82864859759233,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.8148158,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        7,
+        7,
+        3,
+        7,
+        7,
+        7,
+        5,
+        5,
+        5,
+        3,
+        7,
+        3,
+        5,
+        7,
+        5,
+        5,
+        7,
+        5
+      ],
+      "e": [
+        3,
+        4,
+        4,
+        6,
+        3,
+        4,
+        4,
+        6,
+        4,
+        4,
+        3,
+        3,
+        3,
+        6,
+        6,
+        3,
+        4,
+        6,
+        6,
+        3
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        4,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7643749999999999,
+    "latency": 27.638478630811456,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.8370898,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        5,
+        3,
+        7,
+        7,
+        5,
+        5,
+        3,
+        3,
+        3,
+        5,
+        3,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        4,
+        6,
+        6,
+        3,
+        6,
+        4,
+        3,
+        4,
+        3,
+        6,
+        3,
+        3,
+        3,
+        6,
+        3,
+        4,
+        6,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        4,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7734375,
+    "latency": 22.56515710679465,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.8561728,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        7,
+        7,
+        3,
+        5,
+        7,
+        5,
+        7,
+        7,
+        7,
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        4,
+        3,
+        4,
+        3,
+        6,
+        3,
+        6,
+        3,
+        6,
+        4,
+        3,
+        6,
+        6,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7890625,
+    "latency": 20.55975587522115,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.8732047,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        7,
+        7,
+        7,
+        5,
+        3,
+        5,
+        5,
+        5,
+        3,
+        3,
+        3,
+        5,
+        7,
+        7,
+        3,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        6,
+        3,
+        6,
+        6,
+        4,
+        6,
+        4,
+        4,
+        4,
+        4,
+        6,
+        3,
+        4,
+        6,
+        6,
+        4,
+        4,
+        6,
+        4,
+        4
+      ],
+      "d": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7943749999999999,
+    "latency": 20.816203664227356,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.892926,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        5,
+        3,
+        7,
+        3,
+        7,
+        3,
+        5,
+        3,
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "e": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        6,
+        3,
+        3,
+        6,
+        4,
+        3,
+        6,
+        3,
+        3,
+        6,
+        4,
+        4,
+        3,
+        4,
+        4
+      ],
+      "d": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7721874999999999,
+    "latency": 23.683502992275823,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.914768,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        5,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        3,
+        7,
+        5,
+        7,
+        3,
+        5,
+        7,
+        3,
+        5,
+        5,
+        3
+      ],
+      "e": [
+        6,
+        4,
+        4,
+        3,
+        6,
+        3,
+        4,
+        6,
+        6,
+        3,
+        4,
+        6,
+        3,
+        4,
+        3,
+        6,
+        4,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7615624999999999,
+    "latency": 22.523704806565647,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.937931,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        7,
+        7,
+        3,
+        3,
+        5,
+        7,
+        5,
+        5,
+        7,
+        5,
+        7,
+        5,
+        5,
+        5,
+        3,
+        3,
+        5,
+        5
+      ],
+      "e": [
+        4,
+        6,
+        6,
+        3,
+        3,
+        6,
+        3,
+        3,
+        6,
+        3,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        4,
+        6,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.77625,
+    "latency": 22.645284965960705,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.9571652,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        7,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3,
+        7,
+        5,
+        5,
+        5,
+        3
+      ],
+      "e": [
+        4,
+        6,
+        3,
+        4,
+        3,
+        3,
+        6,
+        6,
+        4,
+        4,
+        4,
+        6,
+        6,
+        4,
+        6,
+        6,
+        6,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        2,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7643749999999999,
+    "latency": 22.06548669546691,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879399.9807868,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        3,
+        3,
+        3,
+        3,
+        5,
+        7,
+        3,
+        5,
+        3,
+        3,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        6,
+        3,
+        6,
+        3,
+        6,
+        6,
+        4,
+        3,
+        3,
+        4,
+        4,
+        4,
+        6,
+        6,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        2,
+        4,
+        4,
+        2,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7759375,
+    "latency": 23.249880694352555,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.0000532,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        7,
+        7,
+        7,
+        3,
+        7,
+        5,
+        5,
+        5,
+        3,
+        5,
+        3,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        4,
+        6,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        3,
+        6,
+        4,
+        3,
+        4,
+        4,
+        4,
+        6
+      ],
+      "d": [
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.778125,
+    "latency": 21.197023473821133,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.0177183,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        3,
+        3,
+        7,
+        3,
+        3,
+        5,
+        5,
+        7,
+        5,
+        7,
+        7,
+        3,
+        5,
+        3,
+        3,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        4,
+        3,
+        3,
+        3,
+        6,
+        4,
+        4,
+        4,
+        6,
+        6,
+        3,
+        6,
+        3,
+        4,
+        6,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        3,
+        2
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7540625,
+    "latency": 22.844394662036958,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.0366218,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        7,
+        7,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        5,
+        3,
+        3,
+        5,
+        5,
+        7,
+        7,
+        3,
+        3,
+        3,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        4,
+        3,
+        3,
+        4,
+        6,
+        6,
+        4,
+        6,
+        4,
+        3,
+        6,
+        4,
+        4,
+        4,
+        3,
+        6,
+        4,
+        3
+      ],
+      "d": [
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7799999999999999,
+    "latency": 22.88465244047481,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.0581737,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        5,
+        3,
+        5,
+        7,
+        7,
+        3,
+        5,
+        7,
+        7,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        6,
+        6,
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        4,
+        6,
+        4,
+        6,
+        4,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6
+      ],
+      "d": [
+        2,
+        4,
+        2,
+        4,
+        4
+      ],
+      "r": 208
+    },
+    "accuracy": 0.79875,
+    "latency": 23.39565208453475,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.0834804,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3,
+        5,
+        3,
+        5,
+        7,
+        5,
+        5,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        6,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        4,
+        6,
+        6,
+        4,
+        3,
+        4,
+        6,
+        6,
+        6,
+        3,
+        3
+      ],
+      "d": [
+        4,
+        3,
+        3,
+        4,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7806249999999999,
+    "latency": 21.701043597645516,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.1077979,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        7,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        5,
+        3,
+        3,
+        5,
+        7
+      ],
+      "e": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        6,
+        4,
+        3,
+        6,
+        3,
+        6,
+        4,
+        3,
+        3,
+        6,
+        6,
+        3,
+        4,
+        3,
+        3
+      ],
+      "d": [
+        2,
+        2,
+        4,
+        3,
+        2
+      ],
+      "r": 224
+    },
+    "accuracy": 0.775625,
+    "latency": 24.02068749751527,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.1309907,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        7,
+        7,
+        3,
+        5,
+        3,
+        5,
+        5,
+        7,
+        5,
+        3,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        6,
+        3,
+        4,
+        6,
+        4,
+        6,
+        6,
+        3,
+        6,
+        4,
+        4,
+        3,
+        6,
+        6,
+        4
+      ],
+      "d": [
+        4,
+        2,
+        3,
+        4,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7825,
+    "latency": 21.11552803708548,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.1511827,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        3,
+        5,
+        5,
+        5,
+        7,
+        5,
+        5,
+        7,
+        3,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        7,
+        5,
+        5
+      ],
+      "e": [
+        6,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        3,
+        6,
+        3,
+        6,
+        3,
+        4,
+        6,
+        6,
+        4,
+        4,
+        6,
+        3
+      ],
+      "d": [
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "r": 192
+    },
+    "accuracy": 0.775625,
+    "latency": 24.845182610145983,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.1718554,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        3,
+        5,
+        3,
+        7,
+        7,
+        7,
+        3,
+        3,
+        7,
+        7,
+        3,
+        7,
+        5,
+        3,
+        3,
+        5,
+        3,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        4,
+        6,
+        3,
+        6,
+        3,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        3,
+        2,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7709374999999999,
+    "latency": 20.464197461374123,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.1923542,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        7,
+        3,
+        7,
+        3,
+        7,
+        7,
+        7,
+        7,
+        7,
+        5,
+        3,
+        5,
+        7,
+        7,
+        7,
+        7,
+        5,
+        5
+      ],
+      "e": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        6,
+        3,
+        3,
+        6,
+        6,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        4,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7893749999999999,
+    "latency": 29.631014266857093,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.216926,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        7,
+        3,
+        7,
+        7,
+        5,
+        3,
+        3,
+        5,
+        5,
+        7,
+        7,
+        5,
+        3,
+        7,
+        5,
+        3,
+        5,
+        7
+      ],
+      "e": [
+        4,
+        4,
+        6,
+        4,
+        4,
+        3,
+        4,
+        6,
+        6,
+        3,
+        6,
+        3,
+        3,
+        4,
+        4,
+        6,
+        4,
+        3,
+        6,
+        3
+      ],
+      "d": [
+        2,
+        2,
+        3,
+        2,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.75,
+    "latency": 24.26299783821466,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.2399774,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        5,
+        3,
+        3,
+        5,
+        3,
+        5,
+        3,
+        5,
+        7,
+        5,
+        7,
+        3,
+        3,
+        5,
+        7,
+        5,
+        5,
+        3
+      ],
+      "e": [
+        4,
+        4,
+        3,
+        6,
+        4,
+        3,
+        6,
+        6,
+        4,
+        3,
+        6,
+        3,
+        6,
+        6,
+        6,
+        6,
+        3,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        3,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.751875,
+    "latency": 25.956480540359372,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.2633553,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        7,
+        7,
+        5,
+        5,
+        3,
+        3,
+        7,
+        7,
+        5,
+        5,
+        3,
+        7,
+        3,
+        5,
+        7,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        3,
+        3,
+        4,
+        6,
+        3,
+        6,
+        4,
+        3,
+        4,
+        6,
+        4,
+        6,
+        4,
+        6,
+        3,
+        6,
+        3,
+        6
+      ],
+      "d": [
+        4,
+        2,
+        4,
+        2,
+        2
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7743749999999999,
+    "latency": 21.646410791879344,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.2838936,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        5,
+        5,
+        5,
+        7,
+        5,
+        7,
+        5,
+        5,
+        5,
+        7,
+        5,
+        5,
+        5,
+        5,
+        3,
+        7,
+        5,
+        7
+      ],
+      "e": [
+        3,
+        4,
+        4,
+        3,
+        6,
+        6,
+        4,
+        4,
+        6,
+        4,
+        3,
+        4,
+        6,
+        3,
+        6,
+        3,
+        3,
+        6,
+        6,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        4,
+        4,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.798125,
+    "latency": 26.211865104587865,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.304622,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        3,
+        5,
+        5,
+        7,
+        5,
+        7,
+        5,
+        7,
+        5,
+        7,
+        5,
+        7,
+        7,
+        5,
+        5,
+        7,
+        7
+      ],
+      "e": [
+        4,
+        3,
+        6,
+        4,
+        4,
+        6,
+        6,
+        4,
+        6,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        6,
+        6,
+        3,
+        4,
+        3
+      ],
+      "d": [
+        4,
+        4,
+        2,
+        2,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7687499999999999,
+    "latency": 29.025594818317476,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.3239613,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        3,
+        5,
+        7,
+        5,
+        3,
+        3,
+        5,
+        5,
+        5,
+        5,
+        3,
+        7,
+        5,
+        7,
+        3,
+        5,
+        7,
+        7
+      ],
+      "e": [
+        6,
+        3,
+        6,
+        3,
+        4,
+        3,
+        6,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        6,
+        3,
+        4,
+        3,
+        6,
+        6,
+        6
+      ],
+      "d": [
+        4,
+        2,
+        3,
+        4,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7665624999999999,
+    "latency": 26.76170308531202,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.347137,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        7,
+        3,
+        5,
+        3,
+        3,
+        3,
+        7,
+        5,
+        3,
+        3,
+        3,
+        7,
+        5
+      ],
+      "e": [
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        6,
+        6,
+        4,
+        6,
+        3,
+        6,
+        6,
+        3,
+        6,
+        4,
+        6,
+        6,
+        4,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        2,
+        2,
+        4
+      ],
+      "r": 208
+    },
+    "accuracy": 0.788125,
+    "latency": 26.9340746071649,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.3723443,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        7,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3,
+        7,
+        7,
+        5,
+        5,
+        3,
+        3,
+        5,
+        3,
+        7,
+        7,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        6,
+        4,
+        4,
+        6,
+        4,
+        6,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        6,
+        6,
+        3,
+        3,
+        3,
+        4
+      ],
+      "d": [
+        3,
+        2,
+        3,
+        4,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.768125,
+    "latency": 26.307187380556908,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.3910336,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        5,
+        7,
+        7,
+        3,
+        7,
+        5,
+        7,
+        5,
+        5,
+        7,
+        7,
+        3,
+        3,
+        3,
+        7,
+        3,
+        5,
+        7
+      ],
+      "e": [
+        4,
+        3,
+        3,
+        6,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        6,
+        3,
+        6,
+        6,
+        4,
+        4,
+        4,
+        4,
+        6,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        4,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7665624999999999,
+    "latency": 26.352547210620383,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.410793,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        5,
+        3,
+        5,
+        3,
+        3,
+        7,
+        5,
+        5,
+        7,
+        5,
+        3,
+        7,
+        5,
+        3,
+        3,
+        7,
+        5,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        3,
+        6,
+        3,
+        3,
+        6,
+        3,
+        6,
+        3,
+        3,
+        6,
+        4,
+        4,
+        6,
+        3,
+        4,
+        4,
+        3,
+        6
+      ],
+      "d": [
+        4,
+        2,
+        2,
+        3,
+        3
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7809375,
+    "latency": 26.830850485035114,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.4320393,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        3,
+        3,
+        7,
+        7,
+        5,
+        7,
+        7,
+        5,
+        7,
+        5,
+        3,
+        5,
+        7,
+        5,
+        5,
+        5,
+        3,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        4,
+        6,
+        3,
+        3,
+        4,
+        4,
+        4,
+        6,
+        4,
+        6,
+        3,
+        6,
+        6,
+        3,
+        3,
+        4,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        2,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7587499999999999,
+    "latency": 26.2521973924971,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.4528291,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        3,
+        5,
+        7,
+        5,
+        5,
+        7,
+        5,
+        7,
+        5,
+        7,
+        3,
+        7,
+        5,
+        5,
+        5,
+        7,
+        3,
+        5
+      ],
+      "e": [
+        6,
+        6,
+        4,
+        3,
+        6,
+        6,
+        6,
+        6,
+        3,
+        6,
+        6,
+        4,
+        6,
+        4,
+        6,
+        3,
+        4,
+        6,
+        4,
+        6
+      ],
+      "d": [
+        4,
+        3,
+        4,
+        3,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.79875,
+    "latency": 24.064061122725928,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.4751492,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        5,
+        3,
+        3,
+        5,
+        3,
+        7,
+        7,
+        5,
+        5,
+        5,
+        7,
+        3
+      ],
+      "e": [
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6,
+        3,
+        6,
+        6,
+        4,
+        3,
+        4,
+        6,
+        6,
+        3,
+        4,
+        4,
+        4
+      ],
+      "d": [
+        4,
+        3,
+        3,
+        2,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7746875,
+    "latency": 25.479604950513135,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.4977636,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        7,
+        3,
+        3,
+        7,
+        3,
+        5,
+        3,
+        7,
+        5,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        3,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        6,
+        4,
+        6,
+        3,
+        6,
+        6,
+        3,
+        4,
+        3,
+        3,
+        6,
+        4,
+        6,
+        6,
+        6,
+        3,
+        4,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        2,
+        4,
+        3,
+        2,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7790625,
+    "latency": 20.667846439230047,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.517005,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        3,
+        7,
+        3,
+        3,
+        5,
+        7,
+        5,
+        5,
+        5,
+        3,
+        3,
+        5,
+        7,
+        7,
+        5,
+        7,
+        3,
+        7
+      ],
+      "e": [
+        6,
+        6,
+        3,
+        4,
+        3,
+        4,
+        6,
+        3,
+        4,
+        3,
+        6,
+        3,
+        6,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "d": [
+        2,
+        3,
+        3,
+        4,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7796875,
+    "latency": 26.40831139804823,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.5380552,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        5,
+        3,
+        7,
+        3,
+        3,
+        7,
+        3,
+        7,
+        7,
+        5,
+        3,
+        7,
+        7,
+        7,
+        7,
+        5,
+        3,
+        5,
+        3
+      ],
+      "e": [
+        6,
+        6,
+        6,
+        6,
+        4,
+        4,
+        3,
+        6,
+        4,
+        6,
+        3,
+        6,
+        3,
+        6,
+        3,
+        4,
+        6,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        3,
+        2,
+        2
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7753125,
+    "latency": 29.14207506786909,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.5589082,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        7,
+        7,
+        7,
+        3,
+        3,
+        5,
+        7,
+        5,
+        7,
+        7,
+        7,
+        7,
+        3,
+        7,
+        7,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        6,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        6,
+        3,
+        6,
+        3,
+        4,
+        4,
+        3,
+        4,
+        4
+      ],
+      "d": [
+        2,
+        3,
+        2,
+        4,
+        3
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7581249999999999,
+    "latency": 22.133604252169093,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.5749278,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        3,
+        5,
+        5,
+        5,
+        7,
+        3,
+        5,
+        5,
+        5,
+        7,
+        5,
+        5,
+        7,
+        5,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        6,
+        3,
+        4,
+        4,
+        3,
+        6,
+        3,
+        6,
+        6,
+        3,
+        4,
+        4,
+        4,
+        6,
+        6,
+        3,
+        6,
+        4,
+        4,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        3,
+        3,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7903125,
+    "latency": 23.08965948056333,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.594688,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        5,
+        3,
+        7,
+        5,
+        5,
+        3,
+        3,
+        5,
+        7,
+        5,
+        3,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        7,
+        7
+      ],
+      "e": [
+        3,
+        4,
+        4,
+        6,
+        3,
+        3,
+        6,
+        3,
+        6,
+        6,
+        4,
+        3,
+        6,
+        4,
+        4,
+        4,
+        3,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        3,
+        2,
+        3,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.76625,
+    "latency": 20.969735459745095,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.617804,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        5,
+        7,
+        3,
+        5,
+        5,
+        7,
+        5,
+        3,
+        7,
+        5,
+        7,
+        5,
+        5,
+        3,
+        3,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        3,
+        4,
+        4,
+        6,
+        6,
+        4,
+        6,
+        4,
+        3,
+        3,
+        4,
+        6,
+        4,
+        3,
+        4,
+        3,
+        6,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        3,
+        2,
+        3,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.770625,
+    "latency": 21.096600192937387,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.6378536,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        7,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        7,
+        3,
+        5,
+        5,
+        3,
+        3,
+        7,
+        7,
+        5,
+        3,
+        5
+      ],
+      "e": [
+        3,
+        6,
+        3,
+        6,
+        6,
+        3,
+        6,
+        4,
+        6,
+        3,
+        4,
+        6,
+        6,
+        4,
+        4,
+        4,
+        6,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7899999999999999,
+    "latency": 24.02749090799943,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.653891,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        3,
+        7,
+        5,
+        5,
+        3,
+        7,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        3,
+        5,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        4,
+        4,
+        3,
+        6,
+        6,
+        3,
+        3,
+        6,
+        3,
+        4,
+        3,
+        3,
+        4,
+        6,
+        4,
+        4,
+        6,
+        3,
+        3,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        4,
+        2,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.771875,
+    "latency": 22.043436433484136,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.671139,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        7,
+        5,
+        3,
+        7,
+        3,
+        7,
+        3,
+        3,
+        5,
+        7,
+        7,
+        5,
+        3,
+        3,
+        7,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        4,
+        3,
+        3,
+        6,
+        4,
+        6,
+        3,
+        4,
+        6,
+        4,
+        6,
+        6,
+        4,
+        4,
+        3,
+        4,
+        3,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        2,
+        2,
+        4,
+        3,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7528125,
+    "latency": 26.896407856831697,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.6911647,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        7,
+        5,
+        5,
+        3,
+        5,
+        5,
+        7,
+        3,
+        5,
+        7,
+        5,
+        3,
+        3,
+        3,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        6,
+        3,
+        6,
+        6,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        6,
+        3,
+        6,
+        4,
+        3,
+        3,
+        4,
+        6
+      ],
+      "d": [
+        3,
+        4,
+        2,
+        3,
+        2
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7806249999999999,
+    "latency": 23.73526658586404,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.7111585,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        5,
+        5,
+        7,
+        5,
+        5,
+        7,
+        3,
+        5,
+        3,
+        7,
+        3,
+        3,
+        3,
+        5,
+        7,
+        7,
+        3,
+        7
+      ],
+      "e": [
+        4,
+        3,
+        6,
+        3,
+        4,
+        3,
+        6,
+        3,
+        4,
+        4,
+        6,
+        4,
+        3,
+        3,
+        4,
+        4,
+        3,
+        3,
+        4,
+        3
+      ],
+      "d": [
+        3,
+        4,
+        4,
+        3,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7856249999999999,
+    "latency": 27.409696462023792,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.731705,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        7,
+        7,
+        3,
+        7,
+        3,
+        5,
+        7,
+        7,
+        3,
+        3,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        3,
+        7
+      ],
+      "e": [
+        4,
+        4,
+        6,
+        3,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        6,
+        6,
+        3,
+        4,
+        4
+      ],
+      "d": [
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7459374999999999,
+    "latency": 26.472897258211553,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.7507775,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        7,
+        5,
+        7,
+        5,
+        5,
+        7,
+        5,
+        3,
+        7,
+        3,
+        7,
+        5,
+        3,
+        7,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3,
+        6,
+        6,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        4,
+        4,
+        6,
+        3,
+        6
+      ],
+      "d": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.7696875,
+    "latency": 22.127766886734584,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.7689495,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        7,
+        3,
+        3,
+        5,
+        7,
+        3,
+        5,
+        3,
+        3,
+        5,
+        7,
+        3,
+        7,
+        5,
+        5,
+        5,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        6,
+        3,
+        3,
+        4,
+        4,
+        4,
+        3,
+        4,
+        6,
+        3,
+        3,
+        6,
+        6,
+        4,
+        6,
+        4,
+        4,
+        4,
+        3,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        3,
+        3,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.776875,
+    "latency": 27.151777842169157,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.7899823,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        5,
+        3,
+        7,
+        5,
+        5,
+        7,
+        3,
+        3,
+        7,
+        7,
+        5,
+        3,
+        7,
+        3,
+        5,
+        5,
+        5,
+        7
+      ],
+      "e": [
+        6,
+        6,
+        6,
+        3,
+        6,
+        6,
+        6,
+        6,
+        3,
+        4,
+        4,
+        6,
+        6,
+        3,
+        3,
+        4,
+        4,
+        3,
+        6,
+        6
+      ],
+      "d": [
+        2,
+        3,
+        3,
+        2,
+        3
+      ],
+      "r": 192
+    },
+    "accuracy": 0.771875,
+    "latency": 25.731198676828342,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.813095,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        3,
+        3,
+        5,
+        7,
+        5,
+        3,
+        7,
+        3,
+        3,
+        7,
+        5,
+        3,
+        7,
+        3,
+        5,
+        7,
+        7,
+        3
+      ],
+      "e": [
+        3,
+        6,
+        6,
+        3,
+        4,
+        6,
+        4,
+        4,
+        3,
+        3,
+        3,
+        6,
+        4,
+        4,
+        6,
+        6,
+        4,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        4,
+        4,
+        3,
+        3,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7625,
+    "latency": 23.200687533469555,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.8369544,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        3,
+        7,
+        3,
+        3,
+        3,
+        3,
+        7,
+        5,
+        3,
+        5,
+        3,
+        7,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3
+      ],
+      "e": [
+        4,
+        6,
+        4,
+        4,
+        4,
+        6,
+        4,
+        4,
+        6,
+        6,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        3,
+        3,
+        6,
+        6
+      ],
+      "d": [
+        2,
+        3,
+        4,
+        4,
+        2
+      ],
+      "r": 224
+    },
+    "accuracy": 0.7834374999999999,
+    "latency": 27.816304892086706,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.8635674,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        3,
+        5,
+        3,
+        5,
+        7,
+        7,
+        3,
+        5,
+        5,
+        5,
+        7,
+        7,
+        7,
+        7
+      ],
+      "e": [
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        6,
+        6,
+        6,
+        3,
+        6,
+        6,
+        4,
+        6,
+        6,
+        4,
+        4,
+        6
+      ],
+      "d": [
+        4,
+        3,
+        3,
+        3,
+        4
+      ],
+      "r": 224
+    },
+    "accuracy": 0.804375,
+    "latency": 21.318083533531425,
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.8875077,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        7,
+        7,
+        3,
+        5,
+        7,
+        5,
+        3,
+        5,
+        7,
+        5,
+        5,
+        5,
+        5,
+        3,
+        7,
+        7,
+        5,
+        7,
+        7
+      ],
+      "e": [
+        6,
+        4,
+        4,
+        6,
+        6,
+        3,
+        4,
+        4,
+        3,
+        3,
+        6,
+        3,
+        3,
+        3,
+        3,
+        4,
+        6,
+        4,
+        6,
+        6
+      ],
+      "d": [
+        3,
+        2,
+        3,
+        3,
+        4
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7693749999999999,
+    "latency": 28.664310999785847,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.9079895,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        7,
+        5,
+        5,
+        5,
+        5,
+        5,
+        3,
+        7,
+        7,
+        3,
+        5,
+        5,
+        7,
+        5,
+        3,
+        5,
+        3,
+        7,
+        5
+      ],
+      "e": [
+        6,
+        6,
+        4,
+        3,
+        4,
+        4,
+        4,
+        6,
+        3,
+        3,
+        6,
+        6,
+        4,
+        4,
+        6,
+        4,
+        3,
+        3,
+        6,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      "r": 208
+    },
+    "accuracy": 0.7884374999999999,
+    "latency": 24.6595105740709,
+    "input_shape": [
+      1,
+      3,
+      208,
+      208
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.9302824,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        5,
+        3,
+        7,
+        3,
+        3,
+        7,
+        7,
+        3,
+        7,
+        5,
+        5,
+        7,
+        3,
+        3,
+        5,
+        7,
+        7,
+        7,
+        5
+      ],
+      "e": [
+        4,
+        6,
+        3,
+        6,
+        4,
+        6,
+        6,
+        4,
+        4,
+        6,
+        3,
+        4,
+        6,
+        3,
+        6,
+        4,
+        3,
+        6,
+        4,
+        4
+      ],
+      "d": [
+        4,
+        3,
+        2,
+        4,
+        2
+      ],
+      "r": 176
+    },
+    "accuracy": 0.7678124999999999,
+    "latency": 26.353997022429922,
+    "input_shape": [
+      1,
+      3,
+      176,
+      176
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.946812,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        3,
+        3,
+        3,
+        7,
+        3,
+        5,
+        7,
+        5,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        3,
+        3,
+        5,
+        5,
+        3,
+        7
+      ],
+      "e": [
+        3,
+        6,
+        4,
+        3,
+        6,
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        6,
+        6,
+        4,
+        6,
+        3,
+        3
+      ],
+      "d": [
+        2,
+        4,
+        4,
+        2,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.755625,
+    "latency": 27.26869993172228,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.9653597,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        5,
+        3,
+        5,
+        7,
+        7,
+        3,
+        5,
+        7,
+        3,
+        5,
+        5,
+        5,
+        7,
+        7,
+        7,
+        3,
+        5,
+        5,
+        7,
+        3
+      ],
+      "e": [
+        6,
+        4,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        6,
+        6,
+        4,
+        3,
+        3,
+        3,
+        6,
+        4,
+        3,
+        6,
+        3,
+        4
+      ],
+      "d": [
+        3,
+        4,
+        3,
+        4,
+        4
+      ],
+      "r": 160
+    },
+    "accuracy": 0.7699999999999999,
+    "latency": 28.236991322388064,
+    "input_shape": [
+      1,
+      3,
+      160,
+      160
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.9820335,
+    "measured_on_quantized": true
+  },
+  {
+    "config": {
+      "ks": [
+        7,
+        3,
+        5,
+        7,
+        5,
+        5,
+        3,
+        7,
+        7,
+        7,
+        7,
+        7,
+        5,
+        3,
+        5,
+        5,
+        3,
+        5,
+        7,
+        5
+      ],
+      "e": [
+        4,
+        4,
+        3,
+        3,
+        6,
+        4,
+        3,
+        4,
+        6,
+        4,
+        6,
+        4,
+        4,
+        6,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3
+      ],
+      "d": [
+        4,
+        2,
+        3,
+        4,
+        4
+      ],
+      "r": 192
+    },
+    "accuracy": 0.78125,
+    "latency": 21.906602348309157,
+    "input_shape": [
+      1,
+      3,
+      192,
+      192
+    ],
+    "quantization": {
+      "enabled": true,
+      "method": "static",
+      "weight_type": "QInt8",
+      "activation_type": "QUInt8"
+    },
+    "hardware": "NPU_STX",
+    "timestamp": 1752879400.998801,
     "measured_on_quantized": true
   },
   {
@@ -420,7 +7355,7 @@
       "r": 160
     },
     "accuracy": 0.6799999999999999,
-    "latency": 1.3107514381408691,
+    "latency": 1.911325454711914,
     "input_shape": [
       1,
       3,
@@ -433,8 +7368,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185901.9931138,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879404.1821213,
     "measured_on_quantized": true
   },
   {
@@ -493,7 +7428,7 @@
       "r": 176
     },
     "accuracy": 0.689375,
-    "latency": 1.6544461250305176,
+    "latency": 2.035946846008301,
     "input_shape": [
       1,
       3,
@@ -506,8 +7441,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185905.2779737,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879407.2331774,
     "measured_on_quantized": true
   },
   {
@@ -566,7 +7501,7 @@
       "r": 192
     },
     "accuracy": 0.69875,
-    "latency": 1.6720986366271973,
+    "latency": 1.9002437591552734,
     "input_shape": [
       1,
       3,
@@ -579,8 +7514,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185908.5538664,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879410.195851,
     "measured_on_quantized": true
   },
   {
@@ -639,7 +7574,7 @@
       "r": 208
     },
     "accuracy": 0.7081249999999999,
-    "latency": 1.8762540817260742,
+    "latency": 2.100348472595215,
     "input_shape": [
       1,
       3,
@@ -652,8 +7587,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185911.9325411,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879413.0386171,
     "measured_on_quantized": true
   },
   {
@@ -712,7 +7647,7 @@
       "r": 224
     },
     "accuracy": 0.7174999999999999,
-    "latency": 5.359084606170654,
+    "latency": 2.3489022254943848,
     "input_shape": [
       1,
       3,
@@ -725,8 +7660,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185916.0544653,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879416.2689717,
     "measured_on_quantized": true
   },
   {
@@ -785,7 +7720,7 @@
       "r": 160
     },
     "accuracy": 0.69875,
-    "latency": 2.1929359436035156,
+    "latency": 2.4442195892333984,
     "input_shape": [
       1,
       3,
@@ -798,8 +7733,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185921.3018744,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879420.5606658,
     "measured_on_quantized": true
   },
   {
@@ -858,7 +7793,7 @@
       "r": 176
     },
     "accuracy": 0.7081249999999999,
-    "latency": 2.295064926147461,
+    "latency": 2.4684906005859375,
     "input_shape": [
       1,
       3,
@@ -871,8 +7806,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185925.9443955,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879424.7212791,
     "measured_on_quantized": true
   },
   {
@@ -931,7 +7866,7 @@
       "r": 192
     },
     "accuracy": 0.7174999999999999,
-    "latency": 2.582533359527588,
+    "latency": 2.4828124046325684,
     "input_shape": [
       1,
       3,
@@ -944,8 +7879,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185931.0077932,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879429.3626637,
     "measured_on_quantized": true
   },
   {
@@ -1004,7 +7939,7 @@
       "r": 208
     },
     "accuracy": 0.7268749999999999,
-    "latency": 2.960798740386963,
+    "latency": 2.6670050621032715,
     "input_shape": [
       1,
       3,
@@ -1017,8 +7952,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185936.5633934,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879433.9093935,
     "measured_on_quantized": true
   },
   {
@@ -1077,7 +8012,7 @@
       "r": 224
     },
     "accuracy": 0.73625,
-    "latency": 3.2774734497070312,
+    "latency": 3.425602912902832,
     "input_shape": [
       1,
       3,
@@ -1090,8 +8025,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185942.1561017,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879439.0128422,
     "measured_on_quantized": true
   },
   {
@@ -1150,7 +8085,7 @@
       "r": 160
     },
     "accuracy": 0.7174999999999999,
-    "latency": 3.071308135986328,
+    "latency": 2.8571653366088867,
     "input_shape": [
       1,
       3,
@@ -1163,8 +8098,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185948.6984875,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879445.0354753,
     "measured_on_quantized": true
   },
   {
@@ -1223,7 +8158,7 @@
       "r": 176
     },
     "accuracy": 0.7268749999999999,
-    "latency": 2.863790988922119,
+    "latency": 2.947077751159668,
     "input_shape": [
       1,
       3,
@@ -1236,8 +8171,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185954.6112823,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879450.9311783,
     "measured_on_quantized": true
   },
   {
@@ -1296,7 +8231,7 @@
       "r": 192
     },
     "accuracy": 0.73625,
-    "latency": 3.2287216186523438,
+    "latency": 3.370654582977295,
     "input_shape": [
       1,
       3,
@@ -1309,8 +8244,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185961.1174247,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879456.2314355,
     "measured_on_quantized": true
   },
   {
@@ -1369,7 +8304,7 @@
       "r": 208
     },
     "accuracy": 0.745625,
-    "latency": 3.5123348236083984,
+    "latency": 3.1481504440307617,
     "input_shape": [
       1,
       3,
@@ -1382,8 +8317,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185966.9718704,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879461.824258,
     "measured_on_quantized": true
   },
   {
@@ -1442,7 +8377,7 @@
       "r": 224
     },
     "accuracy": 0.7549999999999999,
-    "latency": 4.026846885681152,
+    "latency": 4.193990230560303,
     "input_shape": [
       1,
       3,
@@ -1455,8 +8390,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185973.4196968,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879467.1276736,
     "measured_on_quantized": true
   },
   {
@@ -1515,7 +8450,7 @@
       "r": 160
     },
     "accuracy": 0.6924999999999999,
-    "latency": 1.557016372680664,
+    "latency": 1.9877910614013672,
     "input_shape": [
       1,
       3,
@@ -1528,8 +8463,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185976.6523335,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879470.241854,
     "measured_on_quantized": true
   },
   {
@@ -1588,7 +8523,7 @@
       "r": 176
     },
     "accuracy": 0.7018749999999999,
-    "latency": 1.9293832778930664,
+    "latency": 2.3476457595825195,
     "input_shape": [
       1,
       3,
@@ -1601,8 +8536,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185979.8750796,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879473.1832147,
     "measured_on_quantized": true
   },
   {
@@ -1661,7 +8596,7 @@
       "r": 192
     },
     "accuracy": 0.7112499999999999,
-    "latency": 1.8669462203979492,
+    "latency": 2.263624668121338,
     "input_shape": [
       1,
       3,
@@ -1674,8 +8609,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185983.1255405,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879476.3089402,
     "measured_on_quantized": true
   },
   {
@@ -1734,7 +8669,7 @@
       "r": 208
     },
     "accuracy": 0.720625,
-    "latency": 2.040553092956543,
+    "latency": 2.262890338897705,
     "input_shape": [
       1,
       3,
@@ -1747,8 +8682,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185986.3704143,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879479.6188397,
     "measured_on_quantized": true
   },
   {
@@ -1807,7 +8742,7 @@
       "r": 224
     },
     "accuracy": 0.73,
-    "latency": 2.378237247467041,
+    "latency": 2.659628391265869,
     "input_shape": [
       1,
       3,
@@ -1820,8 +8755,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185989.8053463,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879483.0686095,
     "measured_on_quantized": true
   },
   {
@@ -1880,7 +8815,7 @@
       "r": 160
     },
     "accuracy": 0.7112499999999999,
-    "latency": 2.272636890411377,
+    "latency": 2.122311592102051,
     "input_shape": [
       1,
       3,
@@ -1893,8 +8828,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185994.1707237,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879486.963781,
     "measured_on_quantized": true
   },
   {
@@ -1953,7 +8888,7 @@
       "r": 176
     },
     "accuracy": 0.720625,
-    "latency": 2.411632537841797,
+    "latency": 2.62941837310791,
     "input_shape": [
       1,
       3,
@@ -1966,8 +8901,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752185998.4904158,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879491.112271,
     "measured_on_quantized": true
   },
   {
@@ -2026,7 +8961,7 @@
       "r": 192
     },
     "accuracy": 0.73,
-    "latency": 2.925601005554199,
+    "latency": 3.27714204788208,
     "input_shape": [
       1,
       3,
@@ -2039,8 +8974,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186003.2025075,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879495.8014739,
     "measured_on_quantized": true
   },
   {
@@ -2099,7 +9034,7 @@
       "r": 208
     },
     "accuracy": 0.7393749999999999,
-    "latency": 3.1490635871887207,
+    "latency": 3.2393407821655273,
     "input_shape": [
       1,
       3,
@@ -2112,8 +9047,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186008.2188525,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879500.8927333,
     "measured_on_quantized": true
   },
   {
@@ -2172,7 +9107,7 @@
       "r": 224
     },
     "accuracy": 0.7487499999999999,
-    "latency": 3.3580923080444336,
+    "latency": 3.480832576751709,
     "input_shape": [
       1,
       3,
@@ -2185,8 +9120,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186013.6567843,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879505.937176,
     "measured_on_quantized": true
   },
   {
@@ -2245,7 +9180,7 @@
       "r": 160
     },
     "accuracy": 0.73,
-    "latency": 3.0172109603881836,
+    "latency": 3.0849575996398926,
     "input_shape": [
       1,
       3,
@@ -2258,8 +9193,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186019.8941047,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879512.0607781,
     "measured_on_quantized": true
   },
   {
@@ -2318,7 +9253,7 @@
       "r": 176
     },
     "accuracy": 0.7393749999999999,
-    "latency": 3.201620578765869,
+    "latency": 3.327360153198242,
     "input_shape": [
       1,
       3,
@@ -2331,8 +9266,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186025.8892884,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879518.8373036,
     "measured_on_quantized": true
   },
   {
@@ -2391,7 +9326,7 @@
       "r": 192
     },
     "accuracy": 0.7487499999999999,
-    "latency": 4.087038040161133,
+    "latency": 3.5497140884399414,
     "input_shape": [
       1,
       3,
@@ -2404,8 +9339,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186032.5594099,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879525.5951307,
     "measured_on_quantized": true
   },
   {
@@ -2464,7 +9399,7 @@
       "r": 208
     },
     "accuracy": 0.7581249999999999,
-    "latency": 4.31544303894043,
+    "latency": 4.377477169036865,
     "input_shape": [
       1,
       3,
@@ -2477,8 +9412,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186038.707329,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879532.6148453,
     "measured_on_quantized": true
   },
   {
@@ -2537,7 +9472,7 @@
       "r": 224
     },
     "accuracy": 0.7675,
-    "latency": 4.682955741882324,
+    "latency": 4.628767967224121,
     "input_shape": [
       1,
       3,
@@ -2550,8 +9485,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186044.046524,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879539.9615974,
     "measured_on_quantized": true
   },
   {
@@ -2610,7 +9545,7 @@
       "r": 160
     },
     "accuracy": 0.7174999999999999,
-    "latency": 2.2025489807128906,
+    "latency": 2.16702938079834,
     "input_shape": [
       1,
       3,
@@ -2623,8 +9558,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186046.7666426,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879543.6894345,
     "measured_on_quantized": true
   },
   {
@@ -2683,7 +9618,7 @@
       "r": 176
     },
     "accuracy": 0.7268749999999999,
-    "latency": 2.146735191345215,
+    "latency": 2.462637424468994,
     "input_shape": [
       1,
       3,
@@ -2696,8 +9631,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186049.8340013,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879547.5753925,
     "measured_on_quantized": true
   },
   {
@@ -2756,7 +9691,7 @@
       "r": 192
     },
     "accuracy": 0.73625,
-    "latency": 2.494368553161621,
+    "latency": 2.4103856086730957,
     "input_shape": [
       1,
       3,
@@ -2769,8 +9704,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186053.2449415,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879551.4241233,
     "measured_on_quantized": true
   },
   {
@@ -2829,7 +9764,7 @@
       "r": 208
     },
     "accuracy": 0.745625,
-    "latency": 2.7615737915039062,
+    "latency": 2.6602959632873535,
     "input_shape": [
       1,
       3,
@@ -2842,8 +9777,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186056.7382355,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879555.422048,
     "measured_on_quantized": true
   },
   {
@@ -2902,7 +9837,7 @@
       "r": 224
     },
     "accuracy": 0.7549999999999999,
-    "latency": 3.0000710487365723,
+    "latency": 3.0007171630859375,
     "input_shape": [
       1,
       3,
@@ -2915,8 +9850,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186060.3922875,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879559.8006604,
     "measured_on_quantized": true
   },
   {
@@ -2975,7 +9910,7 @@
       "r": 160
     },
     "accuracy": 0.73625,
-    "latency": 2.859787940979004,
+    "latency": 4.271984100341797,
     "input_shape": [
       1,
       3,
@@ -2988,8 +9923,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186064.8022454,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879565.4065664,
     "measured_on_quantized": true
   },
   {
@@ -3048,7 +9983,7 @@
       "r": 176
     },
     "accuracy": 0.745625,
-    "latency": 3.193051815032959,
+    "latency": 3.770444393157959,
     "input_shape": [
       1,
       3,
@@ -3061,8 +9996,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186069.1938074,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879571.478032,
     "measured_on_quantized": true
   },
   {
@@ -3121,7 +10056,7 @@
       "r": 192
     },
     "accuracy": 0.7549999999999999,
-    "latency": 3.5370516777038574,
+    "latency": 3.819267749786377,
     "input_shape": [
       1,
       3,
@@ -3134,8 +10069,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186073.7473605,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879577.2842722,
     "measured_on_quantized": true
   },
   {
@@ -3194,7 +10129,7 @@
       "r": 208
     },
     "accuracy": 0.7643749999999999,
-    "latency": 3.9553427696228027,
+    "latency": 4.151926040649414,
     "input_shape": [
       1,
       3,
@@ -3207,8 +10142,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186078.507582,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879583.0008178,
     "measured_on_quantized": true
   },
   {
@@ -3267,7 +10202,7 @@
       "r": 224
     },
     "accuracy": 0.7737499999999999,
-    "latency": 4.383478164672852,
+    "latency": 4.364774227142334,
     "input_shape": [
       1,
       3,
@@ -3280,8 +10215,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186083.500224,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879589.0610023,
     "measured_on_quantized": true
   },
   {
@@ -3340,7 +10275,7 @@
       "r": 160
     },
     "accuracy": 0.7549999999999999,
-    "latency": 3.8033199310302734,
+    "latency": 3.6818814277648926,
     "input_shape": [
       1,
       3,
@@ -3353,8 +10288,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186089.1953902,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879596.0671477,
     "measured_on_quantized": true
   },
   {
@@ -3413,7 +10348,7 @@
       "r": 176
     },
     "accuracy": 0.7643749999999999,
-    "latency": 4.382696151733398,
+    "latency": 4.016413688659668,
     "input_shape": [
       1,
       3,
@@ -3426,8 +10361,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186095.2035441,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879603.9263892,
     "measured_on_quantized": true
   },
   {
@@ -3486,7 +10421,7 @@
       "r": 192
     },
     "accuracy": 0.7737499999999999,
-    "latency": 4.726467132568359,
+    "latency": 4.557898044586182,
     "input_shape": [
       1,
       3,
@@ -3499,8 +10434,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186101.2992413,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879611.1034555,
     "measured_on_quantized": true
   },
   {
@@ -3559,7 +10494,7 @@
       "r": 208
     },
     "accuracy": 0.783125,
-    "latency": 5.269224643707275,
+    "latency": 5.396924018859863,
     "input_shape": [
       1,
       3,
@@ -3572,8 +10507,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186107.7144995,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879619.118367,
     "measured_on_quantized": true
   },
   {
@@ -3632,7 +10567,7 @@
       "r": 224
     },
     "accuracy": 0.7925,
-    "latency": 5.896584987640381,
+    "latency": 5.2155232429504395,
     "input_shape": [
       1,
       3,
@@ -3645,8 +10580,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186114.350215,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879625.9110625,
     "measured_on_quantized": true
   },
   {
@@ -3705,7 +10640,7 @@
       "r": 160
     },
     "accuracy": 0.69875,
-    "latency": 1.5257501602172852,
+    "latency": 2.576415538787842,
     "input_shape": [
       1,
       3,
@@ -3718,8 +10653,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186117.0451403,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879629.2021728,
     "measured_on_quantized": true
   },
   {
@@ -3778,7 +10713,7 @@
       "r": 176
     },
     "accuracy": 0.7081249999999999,
-    "latency": 1.7079567909240723,
+    "latency": 1.821436882019043,
     "input_shape": [
       1,
       3,
@@ -3791,8 +10726,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186119.8614063,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879632.5563433,
     "measured_on_quantized": true
   },
   {
@@ -3851,7 +10786,7 @@
       "r": 192
     },
     "accuracy": 0.7174999999999999,
-    "latency": 1.896660327911377,
+    "latency": 2.0325112342834473,
     "input_shape": [
       1,
       3,
@@ -3864,8 +10799,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186122.8455493,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879635.6643965,
     "measured_on_quantized": true
   },
   {
@@ -3924,7 +10859,7 @@
       "r": 208
     },
     "accuracy": 0.7268749999999999,
-    "latency": 2.161545753479004,
+    "latency": 2.5369620323181152,
     "input_shape": [
       1,
       3,
@@ -3937,8 +10872,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186125.9365416,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879639.0245767,
     "measured_on_quantized": true
   },
   {
@@ -3997,7 +10932,7 @@
       "r": 224
     },
     "accuracy": 0.73625,
-    "latency": 2.3247814178466797,
+    "latency": 2.6590609550476074,
     "input_shape": [
       1,
       3,
@@ -4010,8 +10945,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186129.049765,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879642.6546667,
     "measured_on_quantized": true
   },
   {
@@ -4070,7 +11005,7 @@
       "r": 160
     },
     "accuracy": 0.7174999999999999,
-    "latency": 2.4162983894348145,
+    "latency": 2.241494655609131,
     "input_shape": [
       1,
       3,
@@ -4083,8 +11018,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186132.8324733,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879646.781134,
     "measured_on_quantized": true
   },
   {
@@ -4143,7 +11078,7 @@
       "r": 176
     },
     "accuracy": 0.7268749999999999,
-    "latency": 2.511773109436035,
+    "latency": 3.400278091430664,
     "input_shape": [
       1,
       3,
@@ -4156,8 +11091,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186136.797322,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879651.3041222,
     "measured_on_quantized": true
   },
   {
@@ -4216,7 +11151,7 @@
       "r": 192
     },
     "accuracy": 0.73625,
-    "latency": 2.796916961669922,
+    "latency": 2.536911964416504,
     "input_shape": [
       1,
       3,
@@ -4229,8 +11164,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186140.9842973,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879656.075843,
     "measured_on_quantized": true
   },
   {
@@ -4289,7 +11224,7 @@
       "r": 208
     },
     "accuracy": 0.745625,
-    "latency": 3.0445003509521484,
+    "latency": 3.5872912406921387,
     "input_shape": [
       1,
       3,
@@ -4302,8 +11237,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186145.5743325,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879660.559278,
     "measured_on_quantized": true
   },
   {
@@ -4362,7 +11297,7 @@
       "r": 224
     },
     "accuracy": 0.7549999999999999,
-    "latency": 3.621804714202881,
+    "latency": 3.507204055786133,
     "input_shape": [
       1,
       3,
@@ -4375,8 +11310,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186150.176465,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879665.6287332,
     "measured_on_quantized": true
   },
   {
@@ -4435,7 +11370,7 @@
       "r": 160
     },
     "accuracy": 0.73625,
-    "latency": 2.415342330932617,
+    "latency": 2.855699062347412,
     "input_shape": [
       1,
       3,
@@ -4448,8 +11383,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186155.0475063,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879670.8299289,
     "measured_on_quantized": true
   },
   {
@@ -4508,7 +11443,7 @@
       "r": 176
     },
     "accuracy": 0.745625,
-    "latency": 3.1534552574157715,
+    "latency": 3.153564929962158,
     "input_shape": [
       1,
       3,
@@ -4521,8 +11456,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186159.4286706,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879676.7602396,
     "measured_on_quantized": true
   },
   {
@@ -4581,7 +11516,7 @@
       "r": 192
     },
     "accuracy": 0.7549999999999999,
-    "latency": 2.810499668121338,
+    "latency": 5.5408453941345215,
     "input_shape": [
       1,
       3,
@@ -4594,8 +11529,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186164.2764075,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879682.6327822,
     "measured_on_quantized": true
   },
   {
@@ -4654,7 +11589,7 @@
       "r": 208
     },
     "accuracy": 0.7643749999999999,
-    "latency": 3.2722997665405273,
+    "latency": 3.6212682723999023,
     "input_shape": [
       1,
       3,
@@ -4667,8 +11602,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186169.229303,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879688.913697,
     "measured_on_quantized": true
   },
   {
@@ -4727,7 +11662,7 @@
       "r": 224
     },
     "accuracy": 0.7737499999999999,
-    "latency": 4.016110897064209,
+    "latency": 4.913468360900879,
     "input_shape": [
       1,
       3,
@@ -4740,8 +11675,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186174.0241992,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879695.2695723,
     "measured_on_quantized": true
   },
   {
@@ -4800,7 +11735,7 @@
       "r": 160
     },
     "accuracy": 0.7112499999999999,
-    "latency": 1.5869665145874023,
+    "latency": 1.8234562873840332,
     "input_shape": [
       1,
       3,
@@ -4813,8 +11748,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186176.7349281,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879698.5617695,
     "measured_on_quantized": true
   },
   {
@@ -4873,7 +11808,7 @@
       "r": 176
     },
     "accuracy": 0.720625,
-    "latency": 1.8222451210021973,
+    "latency": 2.196629047393799,
     "input_shape": [
       1,
       3,
@@ -4886,8 +11821,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186179.2754796,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879701.9294727,
     "measured_on_quantized": true
   },
   {
@@ -4946,7 +11881,7 @@
       "r": 192
     },
     "accuracy": 0.73,
-    "latency": 2.0246458053588867,
+    "latency": 2.4309539794921875,
     "input_shape": [
       1,
       3,
@@ -4959,8 +11894,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186181.9462447,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879705.679144,
     "measured_on_quantized": true
   },
   {
@@ -5019,7 +11954,7 @@
       "r": 208
     },
     "accuracy": 0.7393749999999999,
-    "latency": 2.3512816429138184,
+    "latency": 2.642371654510498,
     "input_shape": [
       1,
       3,
@@ -5032,8 +11967,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186185.016963,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879709.5260074,
     "measured_on_quantized": true
   },
   {
@@ -5092,7 +12027,7 @@
       "r": 224
     },
     "accuracy": 0.7487499999999999,
-    "latency": 2.241816520690918,
+    "latency": 2.9016566276550293,
     "input_shape": [
       1,
       3,
@@ -5105,8 +12040,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186187.9437828,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879713.1505296,
     "measured_on_quantized": true
   },
   {
@@ -5165,7 +12100,7 @@
       "r": 160
     },
     "accuracy": 0.73,
-    "latency": 2.336132526397705,
+    "latency": 2.7727389335632324,
     "input_shape": [
       1,
       3,
@@ -5178,8 +12113,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186191.634612,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879717.882961,
     "measured_on_quantized": true
   },
   {
@@ -5238,7 +12173,7 @@
       "r": 176
     },
     "accuracy": 0.7393749999999999,
-    "latency": 2.304394245147705,
+    "latency": 3.1960129737854004,
     "input_shape": [
       1,
       3,
@@ -5251,8 +12186,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186195.1942632,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879722.931492,
     "measured_on_quantized": true
   },
   {
@@ -5311,7 +12246,7 @@
       "r": 192
     },
     "accuracy": 0.7487499999999999,
-    "latency": 2.6326560974121094,
+    "latency": 2.856125831604004,
     "input_shape": [
       1,
       3,
@@ -5324,8 +12259,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186199.1462536,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879728.12486,
     "measured_on_quantized": true
   },
   {
@@ -5384,7 +12319,7 @@
       "r": 208
     },
     "accuracy": 0.7581249999999999,
-    "latency": 3.0446219444274902,
+    "latency": 3.210916519165039,
     "input_shape": [
       1,
       3,
@@ -5397,8 +12332,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186202.987871,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879734.0446198,
     "measured_on_quantized": true
   },
   {
@@ -5457,7 +12392,7 @@
       "r": 224
     },
     "accuracy": 0.7675,
-    "latency": 3.152642250061035,
+    "latency": 3.5806679725646973,
     "input_shape": [
       1,
       3,
@@ -5470,8 +12405,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186207.3589432,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879739.8991609,
     "measured_on_quantized": true
   },
   {
@@ -5530,7 +12465,7 @@
       "r": 160
     },
     "accuracy": 0.7487499999999999,
-    "latency": 2.5498175621032715,
+    "latency": 3.2043814659118652,
     "input_shape": [
       1,
       3,
@@ -5543,8 +12478,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186211.763515,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879746.477346,
     "measured_on_quantized": true
   },
   {
@@ -5603,7 +12538,7 @@
       "r": 176
     },
     "accuracy": 0.7581249999999999,
-    "latency": 2.851722240447998,
+    "latency": 3.5162711143493652,
     "input_shape": [
       1,
       3,
@@ -5616,8 +12551,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186216.7046564,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879753.3030355,
     "measured_on_quantized": true
   },
   {
@@ -5676,7 +12611,7 @@
       "r": 192
     },
     "accuracy": 0.7675,
-    "latency": 3.8950538635253906,
+    "latency": 3.9432930946350098,
     "input_shape": [
       1,
       3,
@@ -5689,8 +12624,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186221.936127,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879760.606701,
     "measured_on_quantized": true
   },
   {
@@ -5749,7 +12684,7 @@
       "r": 208
     },
     "accuracy": 0.776875,
-    "latency": 3.999781608581543,
+    "latency": 4.51627254486084,
     "input_shape": [
       1,
       3,
@@ -5762,8 +12697,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186226.9438086,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879768.3037796,
     "measured_on_quantized": true
   },
   {
@@ -5822,7 +12757,7 @@
       "r": 224
     },
     "accuracy": 0.7862499999999999,
-    "latency": 4.298357963562012,
+    "latency": 4.552888870239258,
     "input_shape": [
       1,
       3,
@@ -5835,8 +12770,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186232.5702596,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879776.0520227,
     "measured_on_quantized": true
   },
   {
@@ -5895,7 +12830,7 @@
       "r": 160
     },
     "accuracy": 0.73625,
-    "latency": 1.866447925567627,
+    "latency": 2.084646224975586,
     "input_shape": [
       1,
       3,
@@ -5908,8 +12843,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186235.291762,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879779.8550563,
     "measured_on_quantized": true
   },
   {
@@ -5968,7 +12903,7 @@
       "r": 176
     },
     "accuracy": 0.745625,
-    "latency": 2.128612995147705,
+    "latency": 2.5020289421081543,
     "input_shape": [
       1,
       3,
@@ -5981,8 +12916,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186238.9086423,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879784.1667886,
     "measured_on_quantized": true
   },
   {
@@ -6041,7 +12976,7 @@
       "r": 192
     },
     "accuracy": 0.7549999999999999,
-    "latency": 2.4190187454223633,
+    "latency": 2.573869228363037,
     "input_shape": [
       1,
       3,
@@ -6054,8 +12989,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186242.1007802,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879788.4195557,
     "measured_on_quantized": true
   },
   {
@@ -6114,7 +13049,7 @@
       "r": 208
     },
     "accuracy": 0.7643749999999999,
-    "latency": 3.0420541763305664,
+    "latency": 3.0670642852783203,
     "input_shape": [
       1,
       3,
@@ -6127,8 +13062,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186245.5944815,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879792.83342,
     "measured_on_quantized": true
   },
   {
@@ -6187,7 +13122,7 @@
       "r": 224
     },
     "accuracy": 0.7737499999999999,
-    "latency": 2.891097068786621,
+    "latency": 3.0628037452697754,
     "input_shape": [
       1,
       3,
@@ -6200,8 +13135,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186249.2892091,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879797.4585674,
     "measured_on_quantized": true
   },
   {
@@ -6260,7 +13195,7 @@
       "r": 160
     },
     "accuracy": 0.7549999999999999,
-    "latency": 2.6762962341308594,
+    "latency": 2.900209426879883,
     "input_shape": [
       1,
       3,
@@ -6273,8 +13208,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186253.3112745,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879803.0683053,
     "measured_on_quantized": true
   },
   {
@@ -6333,7 +13268,7 @@
       "r": 176
     },
     "accuracy": 0.7643749999999999,
-    "latency": 3.5416579246520996,
+    "latency": 3.4729361534118652,
     "input_shape": [
       1,
       3,
@@ -6346,8 +13281,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186258.1414363,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879809.1015837,
     "measured_on_quantized": true
   },
   {
@@ -6406,7 +13341,7 @@
       "r": 192
     },
     "accuracy": 0.7737499999999999,
-    "latency": 3.7795019149780273,
+    "latency": 3.840606212615967,
     "input_shape": [
       1,
       3,
@@ -6419,8 +13354,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186263.3674316,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879815.2714708,
     "measured_on_quantized": true
   },
   {
@@ -6479,7 +13414,7 @@
       "r": 208
     },
     "accuracy": 0.783125,
-    "latency": 4.225764274597168,
+    "latency": 4.736306667327881,
     "input_shape": [
       1,
       3,
@@ -6492,8 +13427,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186268.827997,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879821.5719178,
     "measured_on_quantized": true
   },
   {
@@ -6552,7 +13487,7 @@
       "r": 224
     },
     "accuracy": 0.7925,
-    "latency": 4.699089527130127,
+    "latency": 4.548439979553223,
     "input_shape": [
       1,
       3,
@@ -6565,8 +13500,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186274.5348604,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879828.0162287,
     "measured_on_quantized": true
   },
   {
@@ -6625,7 +13560,7 @@
       "r": 160
     },
     "accuracy": 0.7737499999999999,
-    "latency": 4.03855562210083,
+    "latency": 4.028267860412598,
     "input_shape": [
       1,
       3,
@@ -6638,8 +13573,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186280.7251542,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879835.6867437,
     "measured_on_quantized": true
   },
   {
@@ -6698,7 +13633,7 @@
       "r": 176
     },
     "accuracy": 0.783125,
-    "latency": 4.558906555175781,
+    "latency": 4.3233466148376465,
     "input_shape": [
       1,
       3,
@@ -6711,8 +13646,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186287.5539854,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879843.3910563,
     "measured_on_quantized": true
   },
   {
@@ -6771,7 +13706,7 @@
       "r": 192
     },
     "accuracy": 0.7925,
-    "latency": 4.784908294677734,
+    "latency": 4.629530906677246,
     "input_shape": [
       1,
       3,
@@ -6784,8 +13719,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186294.635682,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879851.8088627,
     "measured_on_quantized": true
   },
   {
@@ -6844,7 +13779,7 @@
       "r": 208
     },
     "accuracy": 0.8018749999999999,
-    "latency": 5.301554203033447,
+    "latency": 5.272166728973389,
     "input_shape": [
       1,
       3,
@@ -6857,8 +13792,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186301.7072842,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879860.025149,
     "measured_on_quantized": true
   },
   {
@@ -6917,7 +13852,7 @@
       "r": 224
     },
     "accuracy": 0.8112499999999999,
-    "latency": 6.000680923461914,
+    "latency": 5.663721561431885,
     "input_shape": [
       1,
       3,
@@ -6930,8 +13865,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186309.1117709,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879868.5911105,
     "measured_on_quantized": true
   },
   {
@@ -6990,7 +13925,7 @@
       "r": 160
     },
     "accuracy": 0.7174999999999999,
-    "latency": 1.606307029724121,
+    "latency": 1.724088191986084,
     "input_shape": [
       1,
       3,
@@ -7003,8 +13938,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186311.9374638,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879871.8763542,
     "measured_on_quantized": true
   },
   {
@@ -7063,7 +13998,7 @@
       "r": 176
     },
     "accuracy": 0.7268749999999999,
-    "latency": 1.9765353202819824,
+    "latency": 1.9880390167236328,
     "input_shape": [
       1,
       3,
@@ -7076,8 +14011,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186314.994196,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879875.661151,
     "measured_on_quantized": true
   },
   {
@@ -7136,7 +14071,7 @@
       "r": 192
     },
     "accuracy": 0.73625,
-    "latency": 2.140510082244873,
+    "latency": 2.127211093902588,
     "input_shape": [
       1,
       3,
@@ -7149,8 +14084,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186318.3760312,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879879.3977106,
     "measured_on_quantized": true
   },
   {
@@ -7209,7 +14144,7 @@
       "r": 208
     },
     "accuracy": 0.745625,
-    "latency": 2.5060558319091797,
+    "latency": 2.4188923835754395,
     "input_shape": [
       1,
       3,
@@ -7222,8 +14157,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186321.6342113,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879883.2035987,
     "measured_on_quantized": true
   },
   {
@@ -7282,7 +14217,7 @@
       "r": 224
     },
     "accuracy": 0.7549999999999999,
-    "latency": 2.5112342834472656,
+    "latency": 2.496354579925537,
     "input_shape": [
       1,
       3,
@@ -7295,8 +14230,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186325.091572,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879887.130112,
     "measured_on_quantized": true
   },
   {
@@ -7355,7 +14290,7 @@
       "r": 160
     },
     "accuracy": 0.73625,
-    "latency": 2.282893657684326,
+    "latency": 2.3552823066711426,
     "input_shape": [
       1,
       3,
@@ -7368,8 +14303,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186329.2183928,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879892.067709,
     "measured_on_quantized": true
   },
   {
@@ -7428,7 +14363,7 @@
       "r": 176
     },
     "accuracy": 0.745625,
-    "latency": 2.68068790435791,
+    "latency": 2.690598964691162,
     "input_shape": [
       1,
       3,
@@ -7441,8 +14376,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186333.4201193,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879897.125059,
     "measured_on_quantized": true
   },
   {
@@ -7501,7 +14436,7 @@
       "r": 192
     },
     "accuracy": 0.7549999999999999,
-    "latency": 3.1743359565734863,
+    "latency": 3.1757187843322754,
     "input_shape": [
       1,
       3,
@@ -7514,8 +14449,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186337.8394952,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879902.3824203,
     "measured_on_quantized": true
   },
   {
@@ -7574,7 +14509,7 @@
       "r": 208
     },
     "accuracy": 0.7643749999999999,
-    "latency": 3.3351945877075195,
+    "latency": 3.51118803024292,
     "input_shape": [
       1,
       3,
@@ -7587,8 +14522,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186342.7228258,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879908.313732,
     "measured_on_quantized": true
   },
   {
@@ -7647,7 +14582,7 @@
       "r": 224
     },
     "accuracy": 0.7737499999999999,
-    "latency": 3.7812113761901855,
+    "latency": 3.793315887451172,
     "input_shape": [
       1,
       3,
@@ -7660,8 +14595,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186347.622723,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879914.6509082,
     "measured_on_quantized": true
   },
   {
@@ -7720,7 +14655,7 @@
       "r": 160
     },
     "accuracy": 0.7549999999999999,
-    "latency": 3.1849098205566406,
+    "latency": 3.1116533279418945,
     "input_shape": [
       1,
       3,
@@ -7733,8 +14668,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186353.1679235,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879922.1847203,
     "measured_on_quantized": true
   },
   {
@@ -7793,7 +14728,7 @@
       "r": 176
     },
     "accuracy": 0.7643749999999999,
-    "latency": 3.703138828277588,
+    "latency": 3.6386799812316895,
     "input_shape": [
       1,
       3,
@@ -7806,8 +14741,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186359.0528095,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879929.0004816,
     "measured_on_quantized": true
   },
   {
@@ -7866,7 +14801,7 @@
       "r": 192
     },
     "accuracy": 0.7737499999999999,
-    "latency": 3.929016590118408,
+    "latency": 4.065918922424316,
     "input_shape": [
       1,
       3,
@@ -7879,8 +14814,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186365.038882,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879936.0472546,
     "measured_on_quantized": true
   },
   {
@@ -7939,7 +14874,7 @@
       "r": 208
     },
     "accuracy": 0.783125,
-    "latency": 4.330577850341797,
+    "latency": 4.245903491973877,
     "input_shape": [
       1,
       3,
@@ -7952,8 +14887,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186371.3488488,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879943.605179,
     "measured_on_quantized": true
   },
   {
@@ -8012,7 +14947,7 @@
       "r": 224
     },
     "accuracy": 0.7925,
-    "latency": 4.824943542480469,
+    "latency": 4.66580867767334,
     "input_shape": [
       1,
       3,
@@ -8025,8 +14960,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186377.7039013,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879951.0741222,
     "measured_on_quantized": true
   },
   {
@@ -8085,7 +15020,7 @@
       "r": 160
     },
     "accuracy": 0.73,
-    "latency": 1.8435478210449219,
+    "latency": 1.8657708168029785,
     "input_shape": [
       1,
       3,
@@ -8098,8 +15033,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186380.8524735,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879954.6820889,
     "measured_on_quantized": true
   },
   {
@@ -8158,7 +15093,7 @@
       "r": 176
     },
     "accuracy": 0.7393749999999999,
-    "latency": 1.9853615760803223,
+    "latency": 2.030496597290039,
     "input_shape": [
       1,
       3,
@@ -8171,8 +15106,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186384.1984906,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879958.4987833,
     "measured_on_quantized": true
   },
   {
@@ -8231,7 +15166,7 @@
       "r": 192
     },
     "accuracy": 0.7487499999999999,
-    "latency": 2.3969507217407227,
+    "latency": 2.18186616897583,
     "input_shape": [
       1,
       3,
@@ -8244,8 +15179,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186387.7014246,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879962.656878,
     "measured_on_quantized": true
   },
   {
@@ -8304,7 +15239,7 @@
       "r": 208
     },
     "accuracy": 0.7581249999999999,
-    "latency": 2.555854320526123,
+    "latency": 2.5879931449890137,
     "input_shape": [
       1,
       3,
@@ -8317,8 +15252,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186391.3437226,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879966.9677813,
     "measured_on_quantized": true
   },
   {
@@ -8377,7 +15312,7 @@
       "r": 224
     },
     "accuracy": 0.7675,
-    "latency": 2.782297134399414,
+    "latency": 2.768523693084717,
     "input_shape": [
       1,
       3,
@@ -8390,8 +15325,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186395.262724,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879971.7368934,
     "measured_on_quantized": true
   },
   {
@@ -8450,7 +15385,7 @@
       "r": 160
     },
     "accuracy": 0.7487499999999999,
-    "latency": 2.4785780906677246,
+    "latency": 2.81477689743042,
     "input_shape": [
       1,
       3,
@@ -8463,8 +15398,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186399.6788006,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879977.5078416,
     "measured_on_quantized": true
   },
   {
@@ -8523,7 +15458,7 @@
       "r": 176
     },
     "accuracy": 0.7581249999999999,
-    "latency": 2.8592300415039062,
+    "latency": 2.9594898223876953,
     "input_shape": [
       1,
       3,
@@ -8536,8 +15471,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186404.4878137,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879983.8888116,
     "measured_on_quantized": true
   },
   {
@@ -8596,7 +15531,7 @@
       "r": 192
     },
     "accuracy": 0.7675,
-    "latency": 3.255763053894043,
+    "latency": 3.079514503479004,
     "input_shape": [
       1,
       3,
@@ -8609,8 +15544,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186409.397617,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879990.0156605,
     "measured_on_quantized": true
   },
   {
@@ -8669,7 +15604,7 @@
       "r": 208
     },
     "accuracy": 0.776875,
-    "latency": 3.5216307640075684,
+    "latency": 3.4917616844177246,
     "input_shape": [
       1,
       3,
@@ -8682,8 +15617,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186414.549585,
+    "hardware": "NPU_STX",
+    "timestamp": 1752879996.333607,
     "measured_on_quantized": true
   },
   {
@@ -8742,7 +15677,7 @@
       "r": 224
     },
     "accuracy": 0.7862499999999999,
-    "latency": 3.72955322265625,
+    "latency": 3.731212615966797,
     "input_shape": [
       1,
       3,
@@ -8755,8 +15690,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186419.9312274,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880003.0729973,
     "measured_on_quantized": true
   },
   {
@@ -8815,7 +15750,7 @@
       "r": 160
     },
     "accuracy": 0.7675,
-    "latency": 3.3617424964904785,
+    "latency": 3.5092997550964355,
     "input_shape": [
       1,
       3,
@@ -8828,8 +15763,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186425.8476534,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880010.5748727,
     "measured_on_quantized": true
   },
   {
@@ -8888,7 +15823,7 @@
       "r": 176
     },
     "accuracy": 0.776875,
-    "latency": 3.6447763442993164,
+    "latency": 3.623359203338623,
     "input_shape": [
       1,
       3,
@@ -8901,8 +15836,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186432.2043881,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880018.3025112,
     "measured_on_quantized": true
   },
   {
@@ -8961,7 +15896,7 @@
       "r": 192
     },
     "accuracy": 0.7862499999999999,
-    "latency": 4.19870138168335,
+    "latency": 4.059457778930664,
     "input_shape": [
       1,
       3,
@@ -8974,8 +15909,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186438.7063155,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880026.1612704,
     "measured_on_quantized": true
   },
   {
@@ -9034,7 +15969,7 @@
       "r": 208
     },
     "accuracy": 0.7956249999999999,
-    "latency": 4.7757744789123535,
+    "latency": 4.318418502807617,
     "input_shape": [
       1,
       3,
@@ -9047,8 +15982,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186445.5203211,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880034.4279838,
     "measured_on_quantized": true
   },
   {
@@ -9107,7 +16042,7 @@
       "r": 224
     },
     "accuracy": 0.8049999999999999,
-    "latency": 5.153598785400391,
+    "latency": 4.759128093719482,
     "input_shape": [
       1,
       3,
@@ -9120,8 +16055,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186453.5491982,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880042.888323,
     "measured_on_quantized": true
   },
   {
@@ -9180,7 +16115,7 @@
       "r": 160
     },
     "accuracy": 0.7549999999999999,
-    "latency": 2.3369479179382324,
+    "latency": 2.2603964805603027,
     "input_shape": [
       1,
       3,
@@ -9193,8 +16128,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186457.653453,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880047.4325857,
     "measured_on_quantized": true
   },
   {
@@ -9253,7 +16188,7 @@
       "r": 176
     },
     "accuracy": 0.7643749999999999,
-    "latency": 2.6394152641296387,
+    "latency": 2.6462960243225098,
     "input_shape": [
       1,
       3,
@@ -9266,8 +16201,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186461.712876,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880052.0240738,
     "measured_on_quantized": true
   },
   {
@@ -9326,7 +16261,7 @@
       "r": 192
     },
     "accuracy": 0.7737499999999999,
-    "latency": 2.883586883544922,
+    "latency": 2.881331443786621,
     "input_shape": [
       1,
       3,
@@ -9339,8 +16274,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186466.0717888,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880056.8712366,
     "measured_on_quantized": true
   },
   {
@@ -9399,7 +16334,7 @@
       "r": 208
     },
     "accuracy": 0.783125,
-    "latency": 3.6006951332092285,
+    "latency": 3.0953454971313477,
     "input_shape": [
       1,
       3,
@@ -9412,8 +16347,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186470.9904346,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880061.896175,
     "measured_on_quantized": true
   },
   {
@@ -9472,7 +16407,7 @@
       "r": 224
     },
     "accuracy": 0.7925,
-    "latency": 3.5299205780029297,
+    "latency": 3.2858943939208984,
     "input_shape": [
       1,
       3,
@@ -9485,8 +16420,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186476.392602,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880067.070595,
     "measured_on_quantized": true
   },
   {
@@ -9545,7 +16480,7 @@
       "r": 160
     },
     "accuracy": 0.7737499999999999,
-    "latency": 3.362298011779785,
+    "latency": 3.3881115913391113,
     "input_shape": [
       1,
       3,
@@ -9558,8 +16493,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186482.0003743,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880073.2771661,
     "measured_on_quantized": true
   },
   {
@@ -9618,7 +16553,7 @@
       "r": 176
     },
     "accuracy": 0.783125,
-    "latency": 3.7919187545776367,
+    "latency": 3.6113381385803223,
     "input_shape": [
       1,
       3,
@@ -9631,8 +16566,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186487.9200728,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880079.8905034,
     "measured_on_quantized": true
   },
   {
@@ -9691,7 +16626,7 @@
       "r": 192
     },
     "accuracy": 0.7925,
-    "latency": 4.0354156494140625,
+    "latency": 3.7988853454589844,
     "input_shape": [
       1,
       3,
@@ -9704,8 +16639,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186493.8147843,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880086.9680557,
     "measured_on_quantized": true
   },
   {
@@ -9764,7 +16699,7 @@
       "r": 208
     },
     "accuracy": 0.8018749999999999,
-    "latency": 4.644434452056885,
+    "latency": 4.411938190460205,
     "input_shape": [
       1,
       3,
@@ -9777,8 +16712,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186500.2900705,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880094.7270138,
     "measured_on_quantized": true
   },
   {
@@ -9837,7 +16772,7 @@
       "r": 224
     },
     "accuracy": 0.8112499999999999,
-    "latency": 4.9961256980896,
+    "latency": 4.732067584991455,
     "input_shape": [
       1,
       3,
@@ -9850,8 +16785,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186506.8489168,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880102.478953,
     "measured_on_quantized": true
   },
   {
@@ -9910,7 +16845,7 @@
       "r": 160
     },
     "accuracy": 0.7925,
-    "latency": 4.125814437866211,
+    "latency": 4.362630844116211,
     "input_shape": [
       1,
       3,
@@ -9923,8 +16858,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186513.7179787,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880111.3016064,
     "measured_on_quantized": true
   },
   {
@@ -9983,7 +16918,7 @@
       "r": 176
     },
     "accuracy": 0.8018749999999999,
-    "latency": 4.775042533874512,
+    "latency": 5.108540058135986,
     "input_shape": [
       1,
       3,
@@ -9996,8 +16931,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186521.1499245,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880119.7209218,
     "measured_on_quantized": true
   },
   {
@@ -10056,7 +16991,7 @@
       "r": 192
     },
     "accuracy": 0.8112499999999999,
-    "latency": 5.442662239074707,
+    "latency": 4.897873401641846,
     "input_shape": [
       1,
       3,
@@ -10069,8 +17004,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186528.8639176,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880127.2947667,
     "measured_on_quantized": true
   },
   {
@@ -10129,7 +17064,7 @@
       "r": 208
     },
     "accuracy": 0.8206249999999999,
-    "latency": 5.964663028717041,
+    "latency": 5.539412498474121,
     "input_shape": [
       1,
       3,
@@ -10142,8 +17077,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186537.0654109,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880135.6624315,
     "measured_on_quantized": true
   },
   {
@@ -10202,7 +17137,7 @@
       "r": 224
     },
     "accuracy": 0.83,
-    "latency": 6.531169414520264,
+    "latency": 7.178888320922852,
     "input_shape": [
       1,
       3,
@@ -10215,8 +17150,8 @@
       "weight_type": "QInt8",
       "activation_type": "QUInt8"
     },
-    "hardware": "CustomNPU",
-    "timestamp": 1752186545.7285898,
+    "hardware": "NPU_STX",
+    "timestamp": 1752880144.9896233,
     "measured_on_quantized": true
   }
 ]

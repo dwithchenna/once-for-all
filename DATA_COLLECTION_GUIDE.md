@@ -129,12 +129,42 @@ python demo_visualization.py
 python visualize_data.py --data data/collected/complete_dataset.json --output plots
 ```
 
-### Summary Statistics Only:
+### Summary Statistics Only
+
 ```bash
 python visualize_data.py --data data/collected/complete_dataset.json --summary
 ```
 
+### Save Pareto Frontier Models
+
+```bash
+python scripts/save_pareto_models.py --data data/collected/complete_dataset.json --output data/collected/onnx_models/pareto
+```
+
+This will:
+
+1. Identify all models on the Pareto frontier (optimal accuracy-latency trade-offs)
+2. Convert each model to ONNX format with static quantization
+3. Save them with detailed filenames including:
+   - Accuracy score (e.g., `acc0.847`)
+   - Latency measurement (e.g., `lat28.4ms`)
+   - Input resolution (e.g., `r224`)
+   - Network depth (e.g., `d13` for sum of depths)
+   - Average kernel size (e.g., `ks5.0`)
+   - Average expansion ratio (e.g., `e4.2`)
+   - Estimated FLOPs (e.g., `flops320.5M`)
+   - Estimated parameters (e.g., `params5.3M`)
+
+Example filename:
+
+```text
+pareto_03_acc0.824_lat15.7ms_r224_d13_ks5.0_e4.2_flops320.5M_params5.3M.onnx
+```
+
+This naming convention makes it easy to identify the best models and their characteristics without having to open each file.
+
 The visualization script creates:
+
 - **Accuracy vs Latency Plot**: Main trade-off visualization with circle size = model complexity (FLOPs)
 - **Efficiency Frontier**: Shows the most efficient models (best accuracy/latency ratio)
 - **Configuration Analysis**: How different parameters affect performance

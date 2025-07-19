@@ -2,11 +2,10 @@
 # This file contains settings for integrating custom NPU hardware with OFA
 
 hardware:
-  name: "CustomNPU"
+  name: "CPU"
   provider: "CPUExecutionProvider"  # Change to your NPU provider (e.g., "OpenVINOExecutionProvider")
-  provider_options: # Provider-specific options
-    xclbin: "C:\\Program Files\\RyzenAI\\1.5.0_0627\\voe-4.0-win_amd64\\xclbins\\strix\\AMD_AIE2P_4x4_Overlay.xclbin"
-
+  provider_options: {}  # Provider-specific options
+  
   # Example for OpenVINO NPU:
   # provider: "OpenVINOExecutionProvider"
   # provider_options:
@@ -22,13 +21,14 @@ hardware:
 quantization:
   enabled: true
   
-  # Quantization settings
-  weight_type: "QInt8"      # Weight quantization type: QInt8, QUInt8
-  activation_type: "QUInt8" # Activation quantization type: QInt8, QUInt8
+  # Static quantization settings
+  method: "static"              # Use static quantization for better accuracy
+  weight_type: "QInt8"          # Weight quantization type: QInt8, QUInt8
+  activation_type: "QUInt8"     # Activation quantization type: QInt8, QUInt8
   
-  # Calibration dataset settings
-  calibration_dataset_size: 100
-  calibration_batch_size: 1
+  # Calibration dataset settings for static quantization
+  calibration_samples: 50       # Number of calibration samples
+  calibration_batch_size: 1     # Batch size for calibration
   
   # Quantization mode
   # "static" - Static quantization with calibration data
@@ -36,7 +36,7 @@ quantization:
   mode: "static"
   
   # Advanced quantization options
-  per_channel: true         # Per-channel quantization for weights
+  per_channel: false         # Per-channel quantization for weights
   reduce_range: false       # Reduce quantization range for better accuracy
   
   # Optimization settings
@@ -45,9 +45,9 @@ quantization:
 
 search:
   # Search constraints
-  efficiency_constraint: 10.0  # Maximum latency in milliseconds
+  efficiency_constraint: 30.0  # Maximum latency in milliseconds
   accuracy_threshold: 0.75     # Minimum acceptable accuracy (0-1)
-  
+
   # Evolutionary search parameters
   population_size: 100
   max_iterations: 500
@@ -55,7 +55,7 @@ search:
   mutation_ratio: 0.5
   arch_mutate_prob: 0.1
   resolution_mutate_prob: 0.5
-  
+
   # Multi-objective optimization
   objectives: ["accuracy", "latency"]
   weights: [0.7, 0.3]  # Weights for objectives (accuracy, latency)
